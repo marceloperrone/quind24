@@ -5,233 +5,229 @@
 	</head>
 	<body>
 		<table>
-			<tr><td colspan="2"><b>00_GEOFIPS_BASE</b> <i></i></td></tr>
+			<tr><td colspan="2"><b>00_GEOFIPS_BASE</b> <i>Geographic FIPS Codes (2020 Census Update)</i></td></tr>
+			<tr><td>GEO_FIPS</td><td>State-County FIPS code</td></tr>
+			<tr><td>STATE_FIPS</td><td>State FIPS code</td></tr>
+			<tr><td>COUNTY_FIPS</td><td>County FIPS code</td></tr>
+			<tr><td>STATE_ABB</td><td>State postal abbreviation</td></tr>
+			<tr><td>STATE_NAME</td><td>State name</td></tr>
+			<tr><td>COUNTY_NAME</td><td>County name and legal/statistical area description</td></tr>
+			<tr><td>COUNTY_NSCODE</td><td>County NS code</td></tr>
+			<tr><td colspan="2"><b>01_RURAL_URBAN_CONTINUUM_CODES</b> <i>Rural-Urban Continuum Codes (2023)</i></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>STATE_FIPS</td><td></td></tr>
-			<tr><td>COUNTY_FIPS</td><td></td></tr>
-			<tr><td>STATE_ABB</td><td></td></tr>
-			<tr><td>STATE_NAME</td><td></td></tr>
-			<tr><td>COUNTY_NAME</td><td></td></tr>
-			<tr><td>COUNTY_NSCODE</td><td></td></tr>
-			<tr><td colspan="2"><b>01_RURAL_URBAN_CONTINUUM_CODES</b> <i></i></td></tr>
+			<tr><td>R_CONTINUUM_CODE</td><td>Metro counties are classified as 1-3 based on their population (1M, 250K, below ), Non-Metro counties are classified as 4-9 based on population and adjency to metro areas (4=adjacent to metro with 1M+, 9=remote from metro)</td></tr>
+			<tr><td>R_CODE</td><td>Inferred code for rural (R) or urban (U) based on R_CONTINUUM_CODE</td></tr>
+			<tr><td colspan="2"><b>02_POP_AGE_RACE_ETH</b> <i>(CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. </i></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>R_CONTINUUM_CODE</td><td></td></tr>
-			<tr><td>R_CODE</td><td></td></tr>
-			<tr><td colspan="2"><b>02_POP_AGE_RACE_ETH</b> <i></i></td></tr>
+			<tr><td>POP_TOT_2023_NUM</td><td>Total population (2023)</td></tr>
+			<tr><td>POP_TOT_U19Y_2023_PCT</td><td>Population under 19 years old as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2023_PCT</td><td>Population between 20 and 34 years old as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2023_PCT</td><td>Population between 35 and 64 years old as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2023_PCT</td><td>Population 65 years old and older as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHWHITE_2023_PCT</td><td>Not Hispanic, White alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHBLACK_2023_PCT</td><td>Not Hispanic, Black alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_HISPANIC_2023_PCT</td><td>Hospanic population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHASIAN_2023_PCT</td><td>Not Hispanic, Asian alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHAMIND_2023_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_2023_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHTOM_2023_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_U19Y_2023_NUM</td><td>Population under 19 years old(2023)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2023_NUM</td><td>Population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2023_NUM</td><td>Population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2023_NUM</td><td>Population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHWHITE_2023_NUM</td><td>Not Hispanic, White alone population(2023)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2023_NUM</td><td>Not Hispanic, White alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2023_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2023_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2023_NUM</td><td>Not Hispanic, White alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHBLACK_2023_NUM</td><td>Not Hispanic, Black alone population(2023)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2023_NUM</td><td>Not Hispanic, Black alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2023_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2023_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2023_NUM</td><td>Not Hispanic, Black alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_HISPANIC_2023_NUM</td><td>Hispanic population(2023)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2023_NUM</td><td>Hispanic population under 19 years old(2023)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2023_NUM</td><td>Hispanic population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2023_NUM</td><td>Hispanic population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2023_NUM</td><td>Hispanic population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHASIAN_2023_NUM</td><td>Not Hispanic, Asian alone population(2023)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2023_NUM</td><td>Not Hispanic, Asian alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2023_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2023_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2023_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHAMIND_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population(2023)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHTOM_2023_NUM</td><td>Not Hispanic,Two or More Races population(2023)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2023_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2023_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2023_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2023_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_TOT_2022_NUM</td><td>Total population (2022)</td></tr>
+			<tr><td>POP_TOT_U19Y_2022_PCT</td><td>Population under 19 years old as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2022_PCT</td><td>Population between 20 and 34 years old as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2022_PCT</td><td>Population between 35 and 64 years old as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2022_PCT</td><td>Population 65 years old and older as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHWHITE_2022_PCT</td><td>Not Hispanic, White alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHBLACK_2022_PCT</td><td>Not Hispanic, Black alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_HISPANIC_2022_PCT</td><td>Hospanic population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHASIAN_2022_PCT</td><td>Not Hispanic, Asian alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHAMIND_2022_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_2022_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHTOM_2022_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_U19Y_2022_NUM</td><td>Population under 19 years old (2022)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2022_NUM</td><td>Population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2022_NUM</td><td>Population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2022_NUM</td><td>Population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHWHITE_2022_NUM</td><td>Not Hispanic, White alone population (2022)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2022_NUM</td><td>Not Hispanic, White alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2022_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2022_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2022_NUM</td><td>Not Hispanic, White alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHBLACK_2022_NUM</td><td>Not Hispanic, Black alone population (2022)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2022_NUM</td><td>Not Hispanic, Black alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2022_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2022_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2022_NUM</td><td>Not Hispanic, Black alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_HISPANIC_2022_NUM</td><td>Hispanic population (2022)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2022_NUM</td><td>Hispanic population under 19 years old (2022)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2022_NUM</td><td>Hispanic population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2022_NUM</td><td>Hispanic population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2022_NUM</td><td>Hispanic population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHASIAN_2022_NUM</td><td>Not Hispanic, Asian alone population (2022)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2022_NUM</td><td>Not Hispanic, Asian alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2022_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2022_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2022_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHAMIND_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population (2022)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHTOM_2022_NUM</td><td>Not Hispanic,Two or More Races population (2022)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2022_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2022_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2022_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2022_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_TOT_2021_NUM</td><td>Total population (2021)</td></tr>
+			<tr><td>POP_TOT_U19Y_2021_PCT</td><td>Population under 19 years old as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2021_PCT</td><td>Population between 20 and 34 years old as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2021_PCT</td><td>Population between 35 and 64 years old as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2021_PCT</td><td>Population 65 years old and older as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHWHITE_2021_PCT</td><td>Not Hispanic, White alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHBLACK_2021_PCT</td><td>Not Hispanic, Black alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_HISPANIC_2021_PCT</td><td>Hospanic population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHASIAN_2021_PCT</td><td>Not Hispanic, Asian alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHAMIND_2021_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_2021_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHTOM_2021_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_U19Y_2021_NUM</td><td>Population under 19 years old (2021)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2021_NUM</td><td>Population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2021_NUM</td><td>Population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2021_NUM</td><td>Population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHWHITE_2021_NUM</td><td>Not Hispanic, White alone population (2021)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2021_NUM</td><td>Not Hispanic, White alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2021_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2021_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2021_NUM</td><td>Not Hispanic, White alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHBLACK_2021_NUM</td><td>Not Hispanic, Black alone population (2021)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2021_NUM</td><td>Not Hispanic, Black alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2021_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2021_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2021_NUM</td><td>Not Hispanic, Black alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_HISPANIC_2021_NUM</td><td>Hispanic population (2021)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2021_NUM</td><td>Hispanic population under 19 years old (2021)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2021_NUM</td><td>Hispanic population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2021_NUM</td><td>Hispanic population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2021_NUM</td><td>Hispanic population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHASIAN_2021_NUM</td><td>Not Hispanic, Asian alone population (2021)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2021_NUM</td><td>Not Hispanic, Asian alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2021_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2021_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2021_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHAMIND_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population (2021)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHTOM_2021_NUM</td><td>Not Hispanic,Two or More Races population (2021)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2021_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2021_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2021_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2021_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_TOT_2020_NUM</td><td>Total population (2020)</td></tr>
+			<tr><td>POP_TOT_U19Y_2020_PCT</td><td>Population under 19 years old as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2020_PCT</td><td>Population between 20 and 34 years old as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2020_PCT</td><td>Population between 35 and 64 years old as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2020_PCT</td><td>Population 65 years old and older as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHWHITE_2020_PCT</td><td>Not Hispanic, White alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHBLACK_2020_PCT</td><td>Not Hispanic, Black alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_HISPANIC_2020_PCT</td><td>Hospanic population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHASIAN_2020_PCT</td><td>Not Hispanic, Asian alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHAMIND_2020_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_2020_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHTOM_2020_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_U19Y_2020_NUM</td><td>Population under 19 years old (2020)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2020_NUM</td><td>Population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2020_NUM</td><td>Population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2020_NUM</td><td>Population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHWHITE_2020_NUM</td><td>Not Hispanic, White alone population (2020)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2020_NUM</td><td>Not Hispanic, White alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2020_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2020_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2020_NUM</td><td>Not Hispanic, White alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHBLACK_2020_NUM</td><td>Not Hispanic, Black alone population (2020)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2020_NUM</td><td>Not Hispanic, Black alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2020_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2020_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2020_NUM</td><td>Not Hispanic, Black alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_HISPANIC_2020_NUM</td><td>Hispanic population (2020)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2020_NUM</td><td>Hispanic population under 19 years old (2020)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2020_NUM</td><td>Hispanic population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2020_NUM</td><td>Hispanic population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2020_NUM</td><td>Hispanic population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHASIAN_2020_NUM</td><td>Not Hispanic, Asian alone population (2020)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2020_NUM</td><td>Not Hispanic, Asian alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2020_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2020_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2020_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHAMIND_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population (2020)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHTOM_2020_NUM</td><td>Not Hispanic,Two or More Races population (2020)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2020_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2020)</td></tr>
+			<tr><td colspan="2"><b>03_ECONOMIC_TYPOLOGY2015</b> <i>ERS County Typology Codes, 2015 Edition</i></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>POP_TOT_2020_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_2021_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_2022_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2020_PCT</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2020_PCT</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2020_PCT</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2020_PCT</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2020_PCT</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2020_PCT</td><td></td></tr>
-			<tr><td>POP_NHTOM_2020_PCT</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2021_PCT</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2021_PCT</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2021_PCT</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2021_PCT</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2021_PCT</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2021_PCT</td><td></td></tr>
-			<tr><td>POP_NHTOM_2021_PCT</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2022_PCT</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2022_PCT</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2022_PCT</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2022_PCT</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2022_PCT</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2022_PCT</td><td></td></tr>
-			<tr><td>POP_NHTOM_2022_PCT</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2023_PCT</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2023_PCT</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2023_PCT</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2023_PCT</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2023_PCT</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2023_PCT</td><td></td></tr>
-			<tr><td>POP_NHTOM_2023_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_2020_NUM.1</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_2021_NUM.1</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_2022_NUM.1</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_2023_NUM.1</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2020_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2021_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2022_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_2023_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2021_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2022_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2023_NUM</td><td></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2023_NUM</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2020_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2020_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2020_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2020_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2021_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2021_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2021_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2021_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2022_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2022_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2022_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2022_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_U19Y_2023_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2023_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2023_PCT</td><td></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2023_PCT</td><td></td></tr>
-			<tr><td colspan="2"><b>03_ECONOMIC_TYPOLOGY2015</b> <i></i></td></tr>
-			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>ECON_TYPE_CAT</td><td></td></tr>
-			<tr><td>ECON_TYPE_LBL</td><td></td></tr>
-			<tr><td>ECON_TYPE_RETDEST_BIN</td><td></td></tr>
+			<tr><td>ECON_TYPE_CAT</td><td>Economic Type Category</td></tr>
+			<tr><td>ECON_TYPE_LBL</td><td>Economic Type Label</td></tr>
+			<tr><td>ECON_TYPE_RETDEST_BIN</td><td>Economic Type Retirement Destination Binary</td></tr>
 			<tr><td colspan="2"><b>04_PERSINC_EMPLOYMENT</b> <i></i></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>PERSINC_1992_USD</td><td></td></tr>
@@ -674,6 +670,18 @@
 			<tr><td>HC_UNITS_TOTAL_NUM</td><td></td></tr>
 			<tr><td>HC_UNITS_OCCU_NUM</td><td></td></tr>
 			<tr><td>HC_OWNER_OCCU_NUM</td><td></td></tr>
+			<tr><td>HC_OWNER_OCCU_HH_NUM</td><td></td></tr>
+			<tr><td>HC_OWNER_OCCU_W_MTG_NUM</td><td></td></tr>
+			<tr><td>HC_OWNER_OCCU_NO_MTG_NUM</td><td></td></tr>
+			<tr><td>HC_RENTER_OCCU_NUM</td><td></td></tr>
+			<tr><td>HC_RENTER_OCCU_PAY_RENT_NUM</td><td></td></tr>
+			<tr><td>HC_RENTER_OCCU_HHSIZE_NUM</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_O_NUM</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_1_NUM</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_2_NUM</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_3PLUS_NUM</td><td></td></tr>
+			<tr><td>HC_NO_PLUMBING_NUM</td><td></td></tr>
+			<tr><td>HC_NO_KITCHEN_NUM</td><td></td></tr>
 			<tr><td>HC_RENTER_OCCU_PCT</td><td></td></tr>
 			<tr><td>HC_OWNER_OCCU_PCT</td><td></td></tr>
 			<tr><td>HC_NO_BEDROOMS_PCT</td><td></td></tr>
@@ -682,23 +690,24 @@
 			<tr><td>HC_3_BEDROOMS_PCT</td><td></td></tr>
 			<tr><td>HC_4_BEDROOMS_PCT</td><td></td></tr>
 			<tr><td>HC_5PLUS_BEDROOMS_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_W_MORT_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_W_MORT_SMOCAPI_20LESS_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_W_MORT_SMOCAPI_20TO24_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_W_MORT_SMOCAPI_25TO29_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_W_MORT_SMOCAPI_30TO34_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_W_MORT_SMOCAPI_35PLUS_PCT</td><td></td></tr>
-			<tr><td>HC_OWNER_OCCU_NO_MORT_PCT</td><td></td></tr>
-			<tr><td>HC_OCCU_VEHICLES_O_PCT</td><td></td></tr>
-			<tr><td>HC_OCCU_VEHICLES_1_PCT</td><td></td></tr>
-			<tr><td>HC_OCCU_VEHICLES_2_PCT</td><td></td></tr>
-			<tr><td>HC_OCCU_VEHICLES_3PLUS_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_W_MTG_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_SMAPI_20LESS_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_SMAPI_20TO24_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_SMAPI_25TO29_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_SMAPI_30TO34_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_SMAPI_35PLUS_PCT</td><td></td></tr>
+			<tr><td>HC_OWNER_NO_MORT_PCT</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_O_PCT</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_1_PCT</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_2_PCT</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_3PLUS_PCT</td><td></td></tr>
 			<tr><td>HC_NO_PLUMBING_PCT</td><td></td></tr>
 			<tr><td>HC_NO_KITCHEN_PCT</td><td></td></tr>
 			<tr><td>HC_OCPROOM_1ORLESS_PCT</td><td></td></tr>
-			<tr><td>HC_OCPROOM_1POINT5_PCT</td><td></td></tr>
-			<tr><td>HC_OCPROOM_1POINT5PLUS_PCT</td><td></td></tr>
-			<tr><td>HC_OCCU_VEHICLES_123PLUS_PCT</td><td></td></tr>
+			<tr><td>HC_OCPROOM_1_5_PCT</td><td></td></tr>
+			<tr><td>HC_OCPROOM_1_5PLUS_PCT</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_123PLUS_NUM</td><td></td></tr>
+			<tr><td>HC_OCCU_VEH_123PLUS_PCT</td><td></td></tr>
 			<tr><td colspan="2"><b>22_COMMUTE</b> <i></i></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>G2W_CTW_CAR_PCT</td><td></td></tr>
