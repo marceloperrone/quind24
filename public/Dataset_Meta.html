@@ -6,279 +6,279 @@
 	<body>
 		<table>
 			<tr><td colspan="2"><b>00_GEOFIPS_BASE</b>
- <span class="source_description">(<p>Geographic FIPS Codes (2020 Census Update)</p>)</span>
-<div class="source_long_description"><p>American National Standards Institute (ANSI) codes are standardized numeric or alphabetic codes whose documentation is issued by ANSI to ensure uniform identification of geographic entities through all government agencies. The county subdivisions and places tables provide the 5-digit Federal Information Processing Series (FIPS) codes, formerly referred to as FIPS55, assigned and maintained by the Census Bureau. This is also accompanied by a TIGER Line ID, which is a unique identifier assigned by the Census Bureau to each legal/statistical area entity for the purpose of linking data from the decennial census and other geographic programs. https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip</p></div></td></tr>
-			<tr><td>GEO_FIPS</td><td><p>State-County FIPS code</p></td></tr>
-			<tr><td>STATE_FIPS</td><td><p>State FIPS code</p></td></tr>
-			<tr><td>COUNTY_FIPS</td><td><p>County FIPS code</p></td></tr>
-			<tr><td>STATE_ABB</td><td><p>State postal abbreviation</p></td></tr>
-			<tr><td>STATE_NAME</td><td><p>State name</p></td></tr>
-			<tr><td>COUNTY_NAME</td><td><p>County name and legal/statistical area description</p></td></tr>
-			<tr><td>COUNTY_NSCODE</td><td><p>County NS code</p></td></tr>
+ <span class="source_description">(Geographic FIPS Codes (2020 Census Update))</span>
+<div class="source_long_description">American National Standards Institute (ANSI) codes are standardized numeric or alphabetic codes whose documentation is issued by ANSI to ensure uniform identification of geographic entities through all government agencies. The county subdivisions and places tables provide the 5-digit Federal Information Processing Series (FIPS) codes, formerly referred to as FIPS55, assigned and maintained by the Census Bureau. This is also accompanied by a TIGER Line ID, which is a unique identifier assigned by the Census Bureau to each legal/statistical area entity for the purpose of linking data from the decennial census and other geographic programs. https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip</div></td></tr>
+			<tr><td>GEO_FIPS</td><td>State-County FIPS code</td></tr>
+			<tr><td>STATE_FIPS</td><td>State FIPS code</td></tr>
+			<tr><td>COUNTY_FIPS</td><td>County FIPS code</td></tr>
+			<tr><td>STATE_ABB</td><td>State postal abbreviation</td></tr>
+			<tr><td>STATE_NAME</td><td>State name</td></tr>
+			<tr><td>COUNTY_NAME</td><td>County name and legal/statistical area description</td></tr>
+			<tr><td>COUNTY_NSCODE</td><td>County NS code</td></tr>
 			<tr><td colspan="2"><b>01_RURAL_URBAN_CONTINUUM_CODES</b>
- <span class="source_description">(<p>Rural-Urban Continuum Codes (2023)</p>)</span>
-<div class="source_long_description"><p>The 2023 Rural-Urban Continuum Codes distinguish U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area. The division of counties as either metro or nonmetro, based on the 2023 Office of Management and Budget (OMB) delineation of metro areas, is further subdivided into three metro and six nonmetro categories. Each county and census-designated county-equivalent in the United States, including those in outlying territories, is assigned one of these nine codes.</p></div></td></tr>
+ <span class="source_description">(Rural-Urban Continuum Codes (2023))</span>
+<div class="source_long_description">The 2023 Rural-Urban Continuum Codes distinguish U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area. The division of counties as either metro or nonmetro, based on the 2023 Office of Management and Budget (OMB) delineation of metro areas, is further subdivided into three metro and six nonmetro categories. Each county and census-designated county-equivalent in the United States, including those in outlying territories, is assigned one of these nine codes.</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>R_CONTINUUM_CODE</td><td><p>Metro counties are classified as 1-3 based on their population (1M, 250K, below ), Non-Metro counties are classified as 4-9 based on population and adjency to metro areas (4=adjacent to metro with 1M+, 9=remote from metro)</p></td></tr>
-			<tr><td>R_CODE</td><td><p>Inferred code for rural (R) or urban (U) based on R_CONTINUUM_CODE</p></td></tr>
+			<tr><td>R_CONTINUUM_CODE</td><td>Metro counties are classified as 1-3 based on their population (1M, 250K, below ), Non-Metro counties are classified as 4-9 based on population and adjency to metro areas (4=adjacent to metro with 1M+, 9=remote from metro)</td></tr>
+			<tr><td>R_CODE</td><td>Inferred code for rural (R) or urban (U) based on R_CONTINUUM_CODE</td></tr>
 			<tr><td colspan="2"><b>02_POP_AGE_RACE_ETH</b>
- <span class="source_description">(<p>(CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. </p>)</span>
-<div class="source_long_description"><p>Populations can change in three ways: people may be born (births), they may die (deaths), or they may move (domestic and international migration). The U.S. Census Bureau’s Population Estimates Program measures this change and adds it to a base population to produce updated estimates every year. With each annual release of population estimates, the Population Estimates Program revises and updates the entire time series of estimates from April 1, 2020 to July 1 of the current year, which we refer to as the vintage year. We use the term “vintage” to denote an entire time series created with a consistent population starting point and methodology. The release of a new vintage of estimates supersedes any previous series and incorporates the most up-to-date input data and methodological improvements. The population estimates are used for federal funding allocations, as controls for major surveys including the Current Population Survey and the American Community Survey (ACS), for community development, to aid business planning, and as denominators for statistical rates, among many other uses. Metadata at https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2023/CC-EST2023-ALLDATA.pdf</p></div></td></tr>
+ <span class="source_description">((CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. )</span>
+<div class="source_long_description">Populations can change in three ways: people may be born (births), they may die (deaths), or they may move (domestic and international migration). The U.S. Census Bureau’s Population Estimates Program measures this change and adds it to a base population to produce updated estimates every year. With each annual release of population estimates, the Population Estimates Program revises and updates the entire time series of estimates from April 1, 2020 to July 1 of the current year, which we refer to as the vintage year. We use the term “vintage” to denote an entire time series created with a consistent population starting point and methodology. The release of a new vintage of estimates supersedes any previous series and incorporates the most up-to-date input data and methodological improvements. The population estimates are used for federal funding allocations, as controls for major surveys including the Current Population Survey and the American Community Survey (ACS), for community development, to aid business planning, and as denominators for statistical rates, among many other uses. Metadata at https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2023/CC-EST2023-ALLDATA.pdf</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>POP_TOT_2023_NUM</td><td><p>Total population (2023)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2023_PCT</td><td><p>Population under 19 years old as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2023_PCT</td><td><p>Population between 20 and 34 years old as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2023_PCT</td><td><p>Population between 35 and 64 years old as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2023_PCT</td><td><p>Population 65 years old and older as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_NHWHITE_2023_PCT</td><td><p>Not Hispanic, White alone population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_NHBLACK_2023_PCT</td><td><p>Not Hispanic, Black alone population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_HISPANIC_2023_PCT</td><td><p>Hospanic population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_NHASIAN_2023_PCT</td><td><p>Not Hispanic, Asian alone population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_NHAMIND_2023_PCT</td><td><p>Not Hispanic, American Indian and Alaska Native alone population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2023_PCT</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_NHTOM_2023_PCT</td><td><p>Not Hispanic, Two or More Races population as a share of total population(2023)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2023_NUM</td><td><p>Population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2023_NUM</td><td><p>Population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2023_NUM</td><td><p>Population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2023_NUM</td><td><p>Population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_NHWHITE_2023_NUM</td><td><p>Not Hispanic, White alone population(2023)</p></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2023_NUM</td><td><p>Not Hispanic, White alone population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2023_NUM</td><td><p>Not Hispanic, White alone population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2023_NUM</td><td><p>Not Hispanic, White alone population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2023_NUM</td><td><p>Not Hispanic, White alone population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_NHBLACK_2023_NUM</td><td><p>Not Hispanic, Black alone population(2023)</p></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2023_NUM</td><td><p>Not Hispanic, Black alone population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2023_NUM</td><td><p>Not Hispanic, Black alone population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2023_NUM</td><td><p>Not Hispanic, Black alone population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2023_NUM</td><td><p>Not Hispanic, Black alone population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_HISPANIC_2023_NUM</td><td><p>Hispanic population(2023)</p></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2023_NUM</td><td><p>Hispanic population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2023_NUM</td><td><p>Hispanic population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2023_NUM</td><td><p>Hispanic population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2023_NUM</td><td><p>Hispanic population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_NHASIAN_2023_NUM</td><td><p>Not Hispanic, Asian alone population(2023)</p></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2023_NUM</td><td><p>Not Hispanic, Asian alone population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2023_NUM</td><td><p>Not Hispanic, Asian alone population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2023_NUM</td><td><p>Not Hispanic, Asian alone population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2023_NUM</td><td><p>Not Hispanic, Asian alone population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_NHAMIND_2023_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population(2023)</p></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2023_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2023_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2023_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2023_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2023_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population(2023)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2023_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2023_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2023_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2023_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_NHTOM_2023_NUM</td><td><p>Not Hispanic,Two or More Races population(2023)</p></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2023_NUM</td><td><p>Not Hispanic, Two or More Races population under 19 years old(2023)</p></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2023_NUM</td><td><p>Not Hispanic, Two or More Races population between 20 and 34 years old(2023)</p></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2023_NUM</td><td><p>Not Hispanic, Two or More Races population between 35 and 64 years old(2023)</p></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2023_NUM</td><td><p>Not Hispanic, Two or More Races population 65 years old and older(2023)</p></td></tr>
-			<tr><td>POP_TOT_2022_NUM</td><td><p>Total population (2022)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2022_PCT</td><td><p>Population under 19 years old as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2022_PCT</td><td><p>Population between 20 and 34 years old as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2022_PCT</td><td><p>Population between 35 and 64 years old as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2022_PCT</td><td><p>Population 65 years old and older as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_NHWHITE_2022_PCT</td><td><p>Not Hispanic, White alone population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_NHBLACK_2022_PCT</td><td><p>Not Hispanic, Black alone population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_HISPANIC_2022_PCT</td><td><p>Hospanic population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_NHASIAN_2022_PCT</td><td><p>Not Hispanic, Asian alone population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_NHAMIND_2022_PCT</td><td><p>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2022_PCT</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_NHTOM_2022_PCT</td><td><p>Not Hispanic, Two or More Races population as a share of total population (2022)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2022_NUM</td><td><p>Population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2022_NUM</td><td><p>Population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2022_NUM</td><td><p>Population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2022_NUM</td><td><p>Population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_NHWHITE_2022_NUM</td><td><p>Not Hispanic, White alone population (2022)</p></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2022_NUM</td><td><p>Not Hispanic, White alone population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2022_NUM</td><td><p>Not Hispanic, White alone population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2022_NUM</td><td><p>Not Hispanic, White alone population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2022_NUM</td><td><p>Not Hispanic, White alone population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_NHBLACK_2022_NUM</td><td><p>Not Hispanic, Black alone population (2022)</p></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2022_NUM</td><td><p>Not Hispanic, Black alone population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2022_NUM</td><td><p>Not Hispanic, Black alone population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2022_NUM</td><td><p>Not Hispanic, Black alone population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2022_NUM</td><td><p>Not Hispanic, Black alone population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_HISPANIC_2022_NUM</td><td><p>Hispanic population (2022)</p></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2022_NUM</td><td><p>Hispanic population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2022_NUM</td><td><p>Hispanic population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2022_NUM</td><td><p>Hispanic population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2022_NUM</td><td><p>Hispanic population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_NHASIAN_2022_NUM</td><td><p>Not Hispanic, Asian alone population (2022)</p></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2022_NUM</td><td><p>Not Hispanic, Asian alone population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2022_NUM</td><td><p>Not Hispanic, Asian alone population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2022_NUM</td><td><p>Not Hispanic, Asian alone population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2022_NUM</td><td><p>Not Hispanic, Asian alone population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_NHAMIND_2022_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population (2022)</p></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2022_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2022_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2022_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2022_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2022_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2022)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2022_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2022_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2022_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2022_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_NHTOM_2022_NUM</td><td><p>Not Hispanic,Two or More Races population (2022)</p></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2022_NUM</td><td><p>Not Hispanic, Two or More Races population under 19 years old (2022)</p></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2022_NUM</td><td><p>Not Hispanic, Two or More Races population between 20 and 34 years old (2022)</p></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2022_NUM</td><td><p>Not Hispanic, Two or More Races population between 35 and 64 years old (2022)</p></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2022_NUM</td><td><p>Not Hispanic, Two or More Races population 65 years old and older (2022)</p></td></tr>
-			<tr><td>POP_TOT_2021_NUM</td><td><p>Total population (2021)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2021_PCT</td><td><p>Population under 19 years old as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2021_PCT</td><td><p>Population between 20 and 34 years old as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2021_PCT</td><td><p>Population between 35 and 64 years old as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2021_PCT</td><td><p>Population 65 years old and older as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_NHWHITE_2021_PCT</td><td><p>Not Hispanic, White alone population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_NHBLACK_2021_PCT</td><td><p>Not Hispanic, Black alone population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_HISPANIC_2021_PCT</td><td><p>Hospanic population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_NHASIAN_2021_PCT</td><td><p>Not Hispanic, Asian alone population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_NHAMIND_2021_PCT</td><td><p>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2021_PCT</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_NHTOM_2021_PCT</td><td><p>Not Hispanic, Two or More Races population as a share of total population (2021)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2021_NUM</td><td><p>Population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2021_NUM</td><td><p>Population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2021_NUM</td><td><p>Population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2021_NUM</td><td><p>Population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_NHWHITE_2021_NUM</td><td><p>Not Hispanic, White alone population (2021)</p></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2021_NUM</td><td><p>Not Hispanic, White alone population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2021_NUM</td><td><p>Not Hispanic, White alone population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2021_NUM</td><td><p>Not Hispanic, White alone population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2021_NUM</td><td><p>Not Hispanic, White alone population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_NHBLACK_2021_NUM</td><td><p>Not Hispanic, Black alone population (2021)</p></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2021_NUM</td><td><p>Not Hispanic, Black alone population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2021_NUM</td><td><p>Not Hispanic, Black alone population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2021_NUM</td><td><p>Not Hispanic, Black alone population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2021_NUM</td><td><p>Not Hispanic, Black alone population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_HISPANIC_2021_NUM</td><td><p>Hispanic population (2021)</p></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2021_NUM</td><td><p>Hispanic population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2021_NUM</td><td><p>Hispanic population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2021_NUM</td><td><p>Hispanic population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2021_NUM</td><td><p>Hispanic population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_NHASIAN_2021_NUM</td><td><p>Not Hispanic, Asian alone population (2021)</p></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2021_NUM</td><td><p>Not Hispanic, Asian alone population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2021_NUM</td><td><p>Not Hispanic, Asian alone population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2021_NUM</td><td><p>Not Hispanic, Asian alone population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2021_NUM</td><td><p>Not Hispanic, Asian alone population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_NHAMIND_2021_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population (2021)</p></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2021_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2021_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2021_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2021_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2021_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2021)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2021_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2021_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2021_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2021_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_NHTOM_2021_NUM</td><td><p>Not Hispanic,Two or More Races population (2021)</p></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2021_NUM</td><td><p>Not Hispanic, Two or More Races population under 19 years old (2021)</p></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2021_NUM</td><td><p>Not Hispanic, Two or More Races population between 20 and 34 years old (2021)</p></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2021_NUM</td><td><p>Not Hispanic, Two or More Races population between 35 and 64 years old (2021)</p></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2021_NUM</td><td><p>Not Hispanic, Two or More Races population 65 years old and older (2021)</p></td></tr>
-			<tr><td>POP_TOT_2020_NUM</td><td><p>Total population (2020)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2020_PCT</td><td><p>Population under 19 years old as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2020_PCT</td><td><p>Population between 20 and 34 years old as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2020_PCT</td><td><p>Population between 35 and 64 years old as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2020_PCT</td><td><p>Population 65 years old and older as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_NHWHITE_2020_PCT</td><td><p>Not Hispanic, White alone population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_NHBLACK_2020_PCT</td><td><p>Not Hispanic, Black alone population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_HISPANIC_2020_PCT</td><td><p>Hospanic population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_NHASIAN_2020_PCT</td><td><p>Not Hispanic, Asian alone population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_NHAMIND_2020_PCT</td><td><p>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2020_PCT</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_NHTOM_2020_PCT</td><td><p>Not Hispanic, Two or More Races population as a share of total population (2020)</p></td></tr>
-			<tr><td>POP_TOT_U19Y_2020_NUM</td><td><p>Population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_TOT_20TO34Y_2020_NUM</td><td><p>Population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_TOT_35TO64Y_2020_NUM</td><td><p>Population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_TOT_65PLUSY_2020_NUM</td><td><p>Population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_NHWHITE_2020_NUM</td><td><p>Not Hispanic, White alone population (2020)</p></td></tr>
-			<tr><td>POP_NHWHITE_U19Y_2020_NUM</td><td><p>Not Hispanic, White alone population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_NHWHITE_20TO34Y_2020_NUM</td><td><p>Not Hispanic, White alone population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_NHWHITE_35TO64Y_2020_NUM</td><td><p>Not Hispanic, White alone population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_NHWHITE_65PLUSY_2020_NUM</td><td><p>Not Hispanic, White alone population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_NHBLACK_2020_NUM</td><td><p>Not Hispanic, Black alone population (2020)</p></td></tr>
-			<tr><td>POP_NHBLACK_U19Y_2020_NUM</td><td><p>Not Hispanic, Black alone population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_NHBLACK_20TO34Y_2020_NUM</td><td><p>Not Hispanic, Black alone population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_NHBLACK_35TO64Y_2020_NUM</td><td><p>Not Hispanic, Black alone population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_NHBLACK_65PLUSY_2020_NUM</td><td><p>Not Hispanic, Black alone population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_HISPANIC_2020_NUM</td><td><p>Hispanic population (2020)</p></td></tr>
-			<tr><td>POP_HISPANIC_U19Y_2020_NUM</td><td><p>Hispanic population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_HISPANIC_20TO34Y_2020_NUM</td><td><p>Hispanic population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_HISPANIC_35TO64Y_2020_NUM</td><td><p>Hispanic population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_HISPANIC_65PLUSY_2020_NUM</td><td><p>Hispanic population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_NHASIAN_2020_NUM</td><td><p>Not Hispanic, Asian alone population (2020)</p></td></tr>
-			<tr><td>POP_NHASIAN_U19Y_2020_NUM</td><td><p>Not Hispanic, Asian alone population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_NHASIAN_20TO34Y_2020_NUM</td><td><p>Not Hispanic, Asian alone population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_NHASIAN_35TO64Y_2020_NUM</td><td><p>Not Hispanic, Asian alone population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_NHASIAN_65PLUSY_2020_NUM</td><td><p>Not Hispanic, Asian alone population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_NHAMIND_2020_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population (2020)</p></td></tr>
-			<tr><td>POP_NHAMIND_U19Y_2020_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_NHAMIND_20TO34Y_2020_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_NHAMIND_35TO64Y_2020_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_NHAMIND_65PLUSY_2020_NUM</td><td><p>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_2020_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2020)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_U19Y_2020_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_20TO34Y_2020_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_35TO64Y_2020_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_NHPACIFIC_65PLUSY_2020_NUM</td><td><p>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2020)</p></td></tr>
-			<tr><td>POP_NHTOM_2020_NUM</td><td><p>Not Hispanic,Two or More Races population (2020)</p></td></tr>
-			<tr><td>POP_NHTOM_U19Y_2020_NUM</td><td><p>Not Hispanic, Two or More Races population under 19 years old (2020)</p></td></tr>
-			<tr><td>POP_NHTOM_20TO34Y_2020_NUM</td><td><p>Not Hispanic, Two or More Races population between 20 and 34 years old (2020)</p></td></tr>
-			<tr><td>POP_NHTOM_35TO64Y_2020_NUM</td><td><p>Not Hispanic, Two or More Races population between 35 and 64 years old (2020)</p></td></tr>
-			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td><p>Not Hispanic, Two or More Races population 65 years old and older (2020)</p></td></tr>
+			<tr><td>POP_TOT_2023_NUM</td><td>Total population (2023)</td></tr>
+			<tr><td>POP_TOT_U19Y_2023_PCT</td><td>Population under 19 years old as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2023_PCT</td><td>Population between 20 and 34 years old as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2023_PCT</td><td>Population between 35 and 64 years old as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2023_PCT</td><td>Population 65 years old and older as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHWHITE_2023_PCT</td><td>Not Hispanic, White alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHBLACK_2023_PCT</td><td>Not Hispanic, Black alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_HISPANIC_2023_PCT</td><td>Hospanic population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHASIAN_2023_PCT</td><td>Not Hispanic, Asian alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHAMIND_2023_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_2023_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population(2023)</td></tr>
+			<tr><td>POP_NHTOM_2023_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population(2023)</td></tr>
+			<tr><td>POP_TOT_U19Y_2023_NUM</td><td>Population under 19 years old(2023)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2023_NUM</td><td>Population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2023_NUM</td><td>Population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2023_NUM</td><td>Population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHWHITE_2023_NUM</td><td>Not Hispanic, White alone population(2023)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2023_NUM</td><td>Not Hispanic, White alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2023_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2023_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2023_NUM</td><td>Not Hispanic, White alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHBLACK_2023_NUM</td><td>Not Hispanic, Black alone population(2023)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2023_NUM</td><td>Not Hispanic, Black alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2023_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2023_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2023_NUM</td><td>Not Hispanic, Black alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_HISPANIC_2023_NUM</td><td>Hispanic population(2023)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2023_NUM</td><td>Hispanic population under 19 years old(2023)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2023_NUM</td><td>Hispanic population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2023_NUM</td><td>Hispanic population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2023_NUM</td><td>Hispanic population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHASIAN_2023_NUM</td><td>Not Hispanic, Asian alone population(2023)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2023_NUM</td><td>Not Hispanic, Asian alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2023_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2023_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2023_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHAMIND_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population(2023)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2023_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2023_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_NHTOM_2023_NUM</td><td>Not Hispanic,Two or More Races population(2023)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2023_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old(2023)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2023_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old(2023)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2023_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old(2023)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2023_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older(2023)</td></tr>
+			<tr><td>POP_TOT_2022_NUM</td><td>Total population (2022)</td></tr>
+			<tr><td>POP_TOT_U19Y_2022_PCT</td><td>Population under 19 years old as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2022_PCT</td><td>Population between 20 and 34 years old as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2022_PCT</td><td>Population between 35 and 64 years old as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2022_PCT</td><td>Population 65 years old and older as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHWHITE_2022_PCT</td><td>Not Hispanic, White alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHBLACK_2022_PCT</td><td>Not Hispanic, Black alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_HISPANIC_2022_PCT</td><td>Hospanic population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHASIAN_2022_PCT</td><td>Not Hispanic, Asian alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHAMIND_2022_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_2022_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2022)</td></tr>
+			<tr><td>POP_NHTOM_2022_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population (2022)</td></tr>
+			<tr><td>POP_TOT_U19Y_2022_NUM</td><td>Population under 19 years old (2022)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2022_NUM</td><td>Population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2022_NUM</td><td>Population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2022_NUM</td><td>Population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHWHITE_2022_NUM</td><td>Not Hispanic, White alone population (2022)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2022_NUM</td><td>Not Hispanic, White alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2022_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2022_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2022_NUM</td><td>Not Hispanic, White alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHBLACK_2022_NUM</td><td>Not Hispanic, Black alone population (2022)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2022_NUM</td><td>Not Hispanic, Black alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2022_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2022_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2022_NUM</td><td>Not Hispanic, Black alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_HISPANIC_2022_NUM</td><td>Hispanic population (2022)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2022_NUM</td><td>Hispanic population under 19 years old (2022)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2022_NUM</td><td>Hispanic population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2022_NUM</td><td>Hispanic population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2022_NUM</td><td>Hispanic population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHASIAN_2022_NUM</td><td>Not Hispanic, Asian alone population (2022)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2022_NUM</td><td>Not Hispanic, Asian alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2022_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2022_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2022_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHAMIND_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population (2022)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2022_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2022_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_NHTOM_2022_NUM</td><td>Not Hispanic,Two or More Races population (2022)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2022_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old (2022)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2022_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2022)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2022_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2022)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2022_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2022)</td></tr>
+			<tr><td>POP_TOT_2021_NUM</td><td>Total population (2021)</td></tr>
+			<tr><td>POP_TOT_U19Y_2021_PCT</td><td>Population under 19 years old as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2021_PCT</td><td>Population between 20 and 34 years old as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2021_PCT</td><td>Population between 35 and 64 years old as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2021_PCT</td><td>Population 65 years old and older as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHWHITE_2021_PCT</td><td>Not Hispanic, White alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHBLACK_2021_PCT</td><td>Not Hispanic, Black alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_HISPANIC_2021_PCT</td><td>Hospanic population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHASIAN_2021_PCT</td><td>Not Hispanic, Asian alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHAMIND_2021_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_2021_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2021)</td></tr>
+			<tr><td>POP_NHTOM_2021_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population (2021)</td></tr>
+			<tr><td>POP_TOT_U19Y_2021_NUM</td><td>Population under 19 years old (2021)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2021_NUM</td><td>Population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2021_NUM</td><td>Population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2021_NUM</td><td>Population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHWHITE_2021_NUM</td><td>Not Hispanic, White alone population (2021)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2021_NUM</td><td>Not Hispanic, White alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2021_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2021_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2021_NUM</td><td>Not Hispanic, White alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHBLACK_2021_NUM</td><td>Not Hispanic, Black alone population (2021)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2021_NUM</td><td>Not Hispanic, Black alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2021_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2021_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2021_NUM</td><td>Not Hispanic, Black alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_HISPANIC_2021_NUM</td><td>Hispanic population (2021)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2021_NUM</td><td>Hispanic population under 19 years old (2021)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2021_NUM</td><td>Hispanic population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2021_NUM</td><td>Hispanic population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2021_NUM</td><td>Hispanic population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHASIAN_2021_NUM</td><td>Not Hispanic, Asian alone population (2021)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2021_NUM</td><td>Not Hispanic, Asian alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2021_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2021_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2021_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHAMIND_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population (2021)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2021_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2021_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_NHTOM_2021_NUM</td><td>Not Hispanic,Two or More Races population (2021)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2021_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old (2021)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2021_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2021)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2021_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2021)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2021_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2021)</td></tr>
+			<tr><td>POP_TOT_2020_NUM</td><td>Total population (2020)</td></tr>
+			<tr><td>POP_TOT_U19Y_2020_PCT</td><td>Population under 19 years old as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2020_PCT</td><td>Population between 20 and 34 years old as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2020_PCT</td><td>Population between 35 and 64 years old as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2020_PCT</td><td>Population 65 years old and older as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHWHITE_2020_PCT</td><td>Not Hispanic, White alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHBLACK_2020_PCT</td><td>Not Hispanic, Black alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_HISPANIC_2020_PCT</td><td>Hospanic population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHASIAN_2020_PCT</td><td>Not Hispanic, Asian alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHAMIND_2020_PCT</td><td>Not Hispanic, American Indian and Alaska Native alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_2020_PCT</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population as a share of total population (2020)</td></tr>
+			<tr><td>POP_NHTOM_2020_PCT</td><td>Not Hispanic, Two or More Races population as a share of total population (2020)</td></tr>
+			<tr><td>POP_TOT_U19Y_2020_NUM</td><td>Population under 19 years old (2020)</td></tr>
+			<tr><td>POP_TOT_20TO34Y_2020_NUM</td><td>Population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_TOT_35TO64Y_2020_NUM</td><td>Population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_TOT_65PLUSY_2020_NUM</td><td>Population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHWHITE_2020_NUM</td><td>Not Hispanic, White alone population (2020)</td></tr>
+			<tr><td>POP_NHWHITE_U19Y_2020_NUM</td><td>Not Hispanic, White alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHWHITE_20TO34Y_2020_NUM</td><td>Not Hispanic, White alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHWHITE_35TO64Y_2020_NUM</td><td>Not Hispanic, White alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHWHITE_65PLUSY_2020_NUM</td><td>Not Hispanic, White alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHBLACK_2020_NUM</td><td>Not Hispanic, Black alone population (2020)</td></tr>
+			<tr><td>POP_NHBLACK_U19Y_2020_NUM</td><td>Not Hispanic, Black alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHBLACK_20TO34Y_2020_NUM</td><td>Not Hispanic, Black alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHBLACK_35TO64Y_2020_NUM</td><td>Not Hispanic, Black alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHBLACK_65PLUSY_2020_NUM</td><td>Not Hispanic, Black alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_HISPANIC_2020_NUM</td><td>Hispanic population (2020)</td></tr>
+			<tr><td>POP_HISPANIC_U19Y_2020_NUM</td><td>Hispanic population under 19 years old (2020)</td></tr>
+			<tr><td>POP_HISPANIC_20TO34Y_2020_NUM</td><td>Hispanic population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_HISPANIC_35TO64Y_2020_NUM</td><td>Hispanic population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_HISPANIC_65PLUSY_2020_NUM</td><td>Hispanic population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHASIAN_2020_NUM</td><td>Not Hispanic, Asian alone population (2020)</td></tr>
+			<tr><td>POP_NHASIAN_U19Y_2020_NUM</td><td>Not Hispanic, Asian alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHASIAN_20TO34Y_2020_NUM</td><td>Not Hispanic, Asian alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHASIAN_35TO64Y_2020_NUM</td><td>Not Hispanic, Asian alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHASIAN_65PLUSY_2020_NUM</td><td>Not Hispanic, Asian alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHAMIND_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population (2020)</td></tr>
+			<tr><td>POP_NHAMIND_U19Y_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHAMIND_20TO34Y_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHAMIND_35TO64Y_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHAMIND_65PLUSY_2020_NUM</td><td>Not Hispanic, American Indian and Alaska Native alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_U19Y_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_20TO34Y_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_35TO64Y_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHPACIFIC_65PLUSY_2020_NUM</td><td>Not Hispanic, Native Hawaiian and Other Pacific Islander alone population 65 years old and older (2020)</td></tr>
+			<tr><td>POP_NHTOM_2020_NUM</td><td>Not Hispanic,Two or More Races population (2020)</td></tr>
+			<tr><td>POP_NHTOM_U19Y_2020_NUM</td><td>Not Hispanic, Two or More Races population under 19 years old (2020)</td></tr>
+			<tr><td>POP_NHTOM_20TO34Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2020)</td></tr>
+			<tr><td>POP_NHTOM_35TO64Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2020)</td></tr>
+			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2020)</td></tr>
 			<tr><td colspan="2"><b>03_ECONOMIC_TYPOLOGY2015</b>
- <span class="source_description">(<p>ERS County Typology Codes, 2015 Edition</p>)</span>
-<div class="source_long_description"><p>Labor and proprietors earnings and employment by place of work are the basis for the economic dependence categories. Each industrys earnings and employment were calculated separately as a percent of total labor and proprietors earnings or total employment in the county in 2010, 2011, and 2012. These percentages were summed, and divided by 3 to obtain annual average percentages. This averaging was done to minimize the effects of any one-year anomaly in an industrys earnings or employment. County-level estimates of earnings and employment by place of work used to measure economic dependence come from the Bureau of Economic Analysis (BEA) Regional Local Area Personal Income &amp; Employment data. The BEA income and employment data used were released in November 2014. The BEA industry data use the North American Industry Classification System (NAICS). Publicly available data (with some industry suppression at the county level) were used for Florida, Massachusetts, Mississippi, New Hampshire, and Wyoming. For all other States, unsuppressed data, not publicly available, were used to develop the economic classifications. On May 31, 2017, the ERS 2015 County Typology Codes were revised for six counties to correct a coding error. More details of the methodology can be found at https://www.ers.usda.gov/data-products/county-typology-codes/documentation/</p></div></td></tr>
+ <span class="source_description">(ERS County Typology Codes, 2015 Edition)</span>
+<div class="source_long_description">Labor and proprietors earnings and employment by place of work are the basis for the economic dependence categories. Each industrys earnings and employment were calculated separately as a percent of total labor and proprietors earnings or total employment in the county in 2010, 2011, and 2012. These percentages were summed, and divided by 3 to obtain annual average percentages. This averaging was done to minimize the effects of any one-year anomaly in an industrys earnings or employment. County-level estimates of earnings and employment by place of work used to measure economic dependence come from the Bureau of Economic Analysis (BEA) Regional Local Area Personal Income & Employment data. The BEA income and employment data used were released in November 2014. The BEA industry data use the North American Industry Classification System (NAICS). Publicly available data (with some industry suppression at the county level) were used for Florida, Massachusetts, Mississippi, New Hampshire, and Wyoming. For all other States, unsuppressed data, not publicly available, were used to develop the economic classifications. On May 31, 2017, the ERS 2015 County Typology Codes were revised for six counties to correct a coding error. More details of the methodology can be found at https://www.ers.usda.gov/data-products/county-typology-codes/documentation/</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>ECON_TYPE_CAT</td><td><p>Economic Type Category</p></td></tr>
-			<tr><td>ECON_TYPE_LBL</td><td><p>Economic Type Label</p></td></tr>
-			<tr><td>ECON_TYPE_RETDEST_BIN</td><td><p>Economic Type Retirement Destination Binary</p></td></tr>
+			<tr><td>ECON_TYPE_CAT</td><td>Economic Type Category</td></tr>
+			<tr><td>ECON_TYPE_LBL</td><td>Economic Type Label</td></tr>
+			<tr><td>ECON_TYPE_RETDEST_BIN</td><td>Economic Type Retirement Destination Binary</td></tr>
 			<tr><td colspan="2"><b>04_PERSINC_EMPLOYMENT</b>
- <span class="source_description">(<p>Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis</p>)</span>
-<div class="source_long_description"><p>GDP by county is published at the sector level, however, many industries are estimated at the three-digit North American Industry Classification System (NAICS) level. To estimate the county residual portion of GDP for each industry, BEA first calculates the state-level residual value for each industry from BEA’s GDP by state statistics. County level industry source data are used as indicators to distribute the calculated state-level residual portion for each industry to produce county estimates. The resulting county statistics sum to published GDP by state by industry. More info here: https://www.bea.gov/system/files/2019-12/One_Page_Methodology_v6.pdf</p></div></td></tr>
+ <span class="source_description">(Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis)</span>
+<div class="source_long_description">GDP by county is published at the sector level, however, many industries are estimated at the three-digit North American Industry Classification System (NAICS) level. To estimate the county residual portion of GDP for each industry, BEA first calculates the state-level residual value for each industry from BEA’s GDP by state statistics. County level industry source data are used as indicators to distribute the calculated state-level residual portion for each industry to produce county estimates. The resulting county statistics sum to published GDP by state by industry. More info here: https://www.bea.gov/system/files/2019-12/One_Page_Methodology_v6.pdf</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>PERSINC_1992_USD</td><td><p>Personal income (1992) - Consists of the income that persons receive in return for their provision of labor, land, and capital used in current production as well as other income, such as personal current transfer receipts. In the state and local personal income accounts the personal income of an area represents the income received by or on behalf of the persons residing in that area. It is calculated as the sum of wages and salaries, supplements to wages and salaries, proprietors income with inventory valuation (IVA) and capital consumption adjustments (CCAdj), rental income of persons with capital consumption adjustment (CCAdj), personal dividend income, personal interest income, and personal current transfer receipts, less contributions for government social insurance plus the adjustment for residence.</p></td></tr>
-			<tr><td>PERSINC_1997_USD</td><td><p>Personal income (1997)</p></td></tr>
-			<tr><td>PERSINC_2002_USD</td><td><p>Personal income (2002)</p></td></tr>
-			<tr><td>PERSINC_2007_USD</td><td><p>Personal income (2007)</p></td></tr>
-			<tr><td>PERSINC_2008_USD</td><td><p>Personal income (2008)</p></td></tr>
-			<tr><td>PERSINC_2009_USD</td><td><p>Personal income (2009)</p></td></tr>
-			<tr><td>PERSINC_2010_USD</td><td><p>Personal income (2010)</p></td></tr>
-			<tr><td>PERSINC_2011_USD</td><td><p>Personal income (2011)</p></td></tr>
-			<tr><td>PERSINC_2012_USD</td><td><p>Personal income (2012)</p></td></tr>
-			<tr><td>PERSINC_2013_USD</td><td><p>Personal income (2013)</p></td></tr>
-			<tr><td>PERSINC_2014_USD</td><td><p>Personal income (2014)</p></td></tr>
-			<tr><td>PERSINC_2015_USD</td><td><p>Personal income (2015)</p></td></tr>
-			<tr><td>PERSINC_2016_USD</td><td><p>Personal income (2016)</p></td></tr>
-			<tr><td>PERSINC_2017_USD</td><td><p>Personal income (2017)</p></td></tr>
-			<tr><td>PERSINC_2018_USD</td><td><p>Personal income (2018)</p></td></tr>
-			<tr><td>PERSINC_2019_USD</td><td><p>Personal income (2019)</p></td></tr>
-			<tr><td>PERSINC_2020_USD</td><td><p>Personal income (2020)</p></td></tr>
-			<tr><td>PERSINC_2021_USD</td><td><p>Personal income (2021)</p></td></tr>
-			<tr><td>PERSINC_2022_USD</td><td><p>Personal income (2022)</p></td></tr>
-			<tr><td>NONFARM_PERSINC_1992_USD</td><td><p>Nonfarm personal income (1992) - Nonfarm personal income is personal income minus farm income.</p></td></tr>
-			<tr><td>NONFARM_PERSINC_1997_USD</td><td><p>Nonfarm personal income (1997)</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2002_USD</td><td><p>Nonfarm personal income (2002)</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2007_USD</td><td><p>Nonfarm personal income (2007)</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2008_USD</td><td><p>Nonfarm personal income (2008)</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2009_USD</td><td><p>Nonfarm personal income (2009)</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2010_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2011_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2012_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2013_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2014_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2015_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2016_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2017_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2018_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2019_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2020_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2021_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>NONFARM_PERSINC_2022_USD</td><td><p>Nonfarm personal income</p></td></tr>
-			<tr><td>FARM_PERSINC_1992_USD</td><td><p>Farm income (1992) - Consists of wages and salaries, employer contributions for employee pension and insurance funds, and proprietors income in the farm industry (NAICS subsectors 111-Crop Production and 112-Animal Production). Farm personal income comprises the net personal income of sole proprietors, partners, and hired laborers arising directly from the current production of agricultural commodities, both livestock and crops. It excludes corporate farm income. </p></td></tr>
+			<tr><td>PERSINC_1992_USD</td><td>Personal income (1992) - Consists of the income that persons receive in return for their provision of labor, land, and capital used in current production as well as other income, such as personal current transfer receipts. In the state and local personal income accounts the personal income of an area represents the income received by or on behalf of the persons residing in that area. It is calculated as the sum of wages and salaries, supplements to wages and salaries, proprietors income with inventory valuation (IVA) and capital consumption adjustments (CCAdj), rental income of persons with capital consumption adjustment (CCAdj), personal dividend income, personal interest income, and personal current transfer receipts, less contributions for government social insurance plus the adjustment for residence.</td></tr>
+			<tr><td>PERSINC_1997_USD</td><td>Personal income (1997)</td></tr>
+			<tr><td>PERSINC_2002_USD</td><td>Personal income (2002)</td></tr>
+			<tr><td>PERSINC_2007_USD</td><td>Personal income (2007)</td></tr>
+			<tr><td>PERSINC_2008_USD</td><td>Personal income (2008)</td></tr>
+			<tr><td>PERSINC_2009_USD</td><td>Personal income (2009)</td></tr>
+			<tr><td>PERSINC_2010_USD</td><td>Personal income (2010)</td></tr>
+			<tr><td>PERSINC_2011_USD</td><td>Personal income (2011)</td></tr>
+			<tr><td>PERSINC_2012_USD</td><td>Personal income (2012)</td></tr>
+			<tr><td>PERSINC_2013_USD</td><td>Personal income (2013)</td></tr>
+			<tr><td>PERSINC_2014_USD</td><td>Personal income (2014)</td></tr>
+			<tr><td>PERSINC_2015_USD</td><td>Personal income (2015)</td></tr>
+			<tr><td>PERSINC_2016_USD</td><td>Personal income (2016)</td></tr>
+			<tr><td>PERSINC_2017_USD</td><td>Personal income (2017)</td></tr>
+			<tr><td>PERSINC_2018_USD</td><td>Personal income (2018)</td></tr>
+			<tr><td>PERSINC_2019_USD</td><td>Personal income (2019)</td></tr>
+			<tr><td>PERSINC_2020_USD</td><td>Personal income (2020)</td></tr>
+			<tr><td>PERSINC_2021_USD</td><td>Personal income (2021)</td></tr>
+			<tr><td>PERSINC_2022_USD</td><td>Personal income (2022)</td></tr>
+			<tr><td>NONFARM_PERSINC_1992_USD</td><td>Nonfarm personal income (1992) - Nonfarm personal income is personal income minus farm income.</td></tr>
+			<tr><td>NONFARM_PERSINC_1997_USD</td><td>Nonfarm personal income (1997)</td></tr>
+			<tr><td>NONFARM_PERSINC_2002_USD</td><td>Nonfarm personal income (2002)</td></tr>
+			<tr><td>NONFARM_PERSINC_2007_USD</td><td>Nonfarm personal income (2007)</td></tr>
+			<tr><td>NONFARM_PERSINC_2008_USD</td><td>Nonfarm personal income (2008)</td></tr>
+			<tr><td>NONFARM_PERSINC_2009_USD</td><td>Nonfarm personal income (2009)</td></tr>
+			<tr><td>NONFARM_PERSINC_2010_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2011_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2012_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2013_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2014_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2015_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2016_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2017_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2018_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2019_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2020_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2021_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>NONFARM_PERSINC_2022_USD</td><td>Nonfarm personal income</td></tr>
+			<tr><td>FARM_PERSINC_1992_USD</td><td>Farm income (1992) - Consists of wages and salaries, employer contributions for employee pension and insurance funds, and proprietors income in the farm industry (NAICS subsectors 111-Crop Production and 112-Animal Production). Farm personal income comprises the net personal income of sole proprietors, partners, and hired laborers arising directly from the current production of agricultural commodities, both livestock and crops. It excludes corporate farm income. </td></tr>
 			<tr><td>FARM_PERSINC_1997_USD</td><td></td></tr>
 			<tr><td>FARM_PERSINC_2002_USD</td><td></td></tr>
 			<tr><td>FARM_PERSINC_2007_USD</td><td></td></tr>
@@ -297,7 +297,7 @@
 			<tr><td>FARM_PERSINC_2020_USD</td><td></td></tr>
 			<tr><td>FARM_PERSINC_2021_USD</td><td></td></tr>
 			<tr><td>FARM_PERSINC_2022_USD</td><td></td></tr>
-			<tr><td>PERCAP_PERSINC_1992_USD</td><td><p>Per capita personal income (1992) - The personal income of a given area divided by the resident population of the area. </p></td></tr>
+			<tr><td>PERCAP_PERSINC_1992_USD</td><td>Per capita personal income (1992) - The personal income of a given area divided by the resident population of the area.</td></tr>
 			<tr><td>PERCAP_PERSINC_1997_USD</td><td></td></tr>
 			<tr><td>PERCAP_PERSINC_2002_USD</td><td></td></tr>
 			<tr><td>PERCAP_PERSINC_2007_USD</td><td></td></tr>
@@ -316,7 +316,7 @@
 			<tr><td>PERCAP_PERSINC_2020_USD</td><td></td></tr>
 			<tr><td>PERCAP_PERSINC_2021_USD</td><td></td></tr>
 			<tr><td>PERCAP_PERSINC_2022_USD</td><td></td></tr>
-			<tr><td>JOBS_1992_NUM</td><td><p>Employment (1992) - A count of jobs, both full-time and part-time. It includes wage and salary jobs, sole proprietorships, and individual general partners, but not unpaid family workers nor volunteers. </p></td></tr>
+			<tr><td>JOBS_1992_NUM</td><td>Employment (1992) - A count of jobs, both full-time and part-time. It includes wage and salary jobs, sole proprietorships, and individual general partners, but not unpaid family workers nor volunteers.</td></tr>
 			<tr><td>JOBS_1997_NUM</td><td></td></tr>
 			<tr><td>JOBS_2002_NUM</td><td></td></tr>
 			<tr><td>JOBS_2007_NUM</td><td></td></tr>
@@ -335,7 +335,7 @@
 			<tr><td>JOBS_2020_NUM</td><td></td></tr>
 			<tr><td>JOBS_2021_NUM</td><td></td></tr>
 			<tr><td>JOBS_2022_NUM</td><td></td></tr>
-			<tr><td>PROP_INC_1992_USD</td><td><p>Proprietors income (1992) - Proprietors income with inventory valuation and capital consumption adjustments is the current-production income (including income in kind) of sole proprietorships, partnerships, and tax-exempt cooperatives. Corporate directors fees are included in proprietors income. Proprietors income includes the interest income received by financial partnerships and the net rental real estate income of those partnerships primarily engaged in the real estate business.</p></td></tr>
+			<tr><td>PROP_INC_1992_USD</td><td>Proprietors income (1992) - Proprietors income with inventory valuation and capital consumption adjustments is the current-production income (including income in kind) of sole proprietorships, partnerships, and tax-exempt cooperatives.<br>Corporate directors fees are included in proprietors income. Proprietors income includes the interest income received by financial partnerships and the net rental real estate income of those partnerships primarily engaged in the real estate business.</td></tr>
 			<tr><td>PROP_INC_1997_USD</td><td></td></tr>
 			<tr><td>PROP_INC_2002_USD</td><td></td></tr>
 			<tr><td>PROP_INC_2007_USD</td><td></td></tr>
@@ -354,7 +354,7 @@
 			<tr><td>PROP_INC_2020_USD</td><td></td></tr>
 			<tr><td>PROP_INC_2021_USD</td><td></td></tr>
 			<tr><td>PROP_INC_2022_USD</td><td></td></tr>
-			<tr><td>FARM_PROP_INC_1992_USD</td><td><p>Farm proprietors income (1992) - Farm proprietors income consists of the income that is received by the sole proprietorships and the partnerships that operate farms. It excludes the income that is received by corporate farms.</p></td></tr>
+			<tr><td>FARM_PROP_INC_1992_USD</td><td>Farm proprietors income (1992) - Farm proprietors income consists of the income that is received by the sole proprietorships and the partnerships that operate farms. It excludes the income that is received by corporate farms.</td></tr>
 			<tr><td>FARM_PROP_INC_1997_USD</td><td></td></tr>
 			<tr><td>FARM_PROP_INC_2002_USD</td><td></td></tr>
 			<tr><td>FARM_PROP_INC_2007_USD</td><td></td></tr>
@@ -373,9 +373,9 @@
 			<tr><td>FARM_PROP_INC_2020_USD</td><td></td></tr>
 			<tr><td>FARM_PROP_INC_2021_USD</td><td></td></tr>
 			<tr><td>FARM_PROP_INC_2022_USD</td><td></td></tr>
-			<tr><td>NONFARM_PROP_INC_1992_USD</td><td><p>Nonfarm proprietors income (1992) - Nonfarm Proprietors Income consists of the income that is received by nonfarm sole proprietorships and partnerships and the income that is received by tax-exempt cooperatives. 
+			<tr><td>NONFARM_PROP_INC_1992_USD</td><td>Nonfarm proprietors income (1992) - Nonfarm Proprietors Income consists of the income that is received by nonfarm sole proprietorships and partnerships and the income that is received by tax-exempt cooperatives. 
  The national estimates of nonfarm proprietors income are primarily derived from income tax data. Because these data do not always reflect current production and because they are incomplete, the estimates also include four major adjustments--the inventory valuation adjustment, the capital consumption adjustment, the misreporting adjustment, and the adjustment for the net margins on owner-built housing. 
- The inventory valuation adjustment offsets the effects of the gains and the losses that result from changes in the prices of products withdrawn from inventories; this adjustment for recent years has been small, but it is important to the definition of proprietors income. The capital consumption adjustment changes the value of the consumption, or depreciation, of fixed capital from the historical-cost basis used in the source data to a replacement-cost basis. The misreporting adjustment adds an estimate of the income of sole proprietors and partnerships that is not reported on tax returns. The adjustment for the net margins on owner-built housing is an addition to the estimate for the construction industry. It is the imputed net income of individuals from the construction or renovation of their own dwellings. The source data necessary to prepare these adjustments are available only at the national level. Therefore, the national estimates of nonfarm proprietors income that include the adjustments are allocated to states, and these state estimates are allocated to the counties, in proportion to tax return data that do not reflect the adjustments.</p></td></tr>
+ The inventory valuation adjustment offsets the effects of the gains and the losses that result from changes in the prices of products withdrawn from inventories; this adjustment for recent years has been small, but it is important to the definition of proprietors income. The capital consumption adjustment changes the value of the consumption, or depreciation, of fixed capital from the historical-cost basis used in the source data to a replacement-cost basis. The misreporting adjustment adds an estimate of the income of sole proprietors and partnerships that is not reported on tax returns. The adjustment for the net margins on owner-built housing is an addition to the estimate for the construction industry. It is the imputed net income of individuals from the construction or renovation of their own dwellings. The source data necessary to prepare these adjustments are available only at the national level. Therefore, the national estimates of nonfarm proprietors income that include the adjustments are allocated to states, and these state estimates are allocated to the counties, in proportion to tax return data that do not reflect the adjustments.</td></tr>
 			<tr><td>NONFARM_PROP_INC_1997_USD</td><td></td></tr>
 			<tr><td>NONFARM_PROP_INC_2002_USD</td><td></td></tr>
 			<tr><td>NONFARM_PROP_INC_2007_USD</td><td></td></tr>
@@ -784,107 +784,107 @@
 			<tr><td>CBSA_NAME</td><td></td></tr>
 			<tr><td>MARKETING_REGION_NAME</td><td></td></tr>
 			<tr><td colspan="2"><b>24_MRI_GENERAL</b>
- <span class="source_description">(<p>MRI General Attitudes - Double Base 2022 - 2024</p>)</span>
+ <span class="source_description">(MRI General Attitudes - Double Base 2022 - 2024)</span>
 </td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>MRI_GEN_BUSY_PCT</td><td><p>I am so busy, I often cant finish everything I need to in a day</p></td></tr>
-			<tr><td>MRI_GEN_ENV_GOVATTN_PCT</td><td><p>The government should pay more attention to environmental issues</p></td></tr>
-			<tr><td>MRI_GEN_LIFECONTROL_PCT</td><td><p>I like to give the impression that my life is under control</p></td></tr>
-			<tr><td>MRI_GEN_BEMYOWNBOSS_PCT</td><td><p>Given the choice, I would be my own boss</p></td></tr>
-			<tr><td>MRI_GEN_RELIGION_PRAYER_PCT</td><td><p>Prayer is a part of my daily life</p></td></tr>
-			<tr><td>MRI_GEN_ENV_HELP_PCT</td><td><p>I am interested in finding out how I can help the environment</p></td></tr>
-			<tr><td>MRI_GEN_ENJOY_RISK_PCT</td><td><p>I enjoy taking risks</p></td></tr>
-			<tr><td>MRI_GEN_INTERESTED_FINEARTS_PCT</td><td><p>I am very interested in the fine arts</p></td></tr>
-			<tr><td>MRI_GEN_RELIGION_IS_PILLAR_PCT</td><td><p>Religion should be the pillar of our society</p></td></tr>
-			<tr><td>MRI_GEN_ENV_ROLE_MODEL_PCT</td><td><p>It is important to me that others see me as being environmentally conscious</p></td></tr>
-			<tr><td>MRI_GEN_LEAD_POS_PCT</td><td><p>I often find myself in a leadership position</p></td></tr>
-			<tr><td>MRI_GEN_IMPRESS_OTHERS_PCT</td><td><p>I like to live a lifestyle that impresses others</p></td></tr>
-			<tr><td>MRI_GEN_FAM_TOP_PRI_PCT</td><td><p>Spending time with my family is my top priority</p></td></tr>
-			<tr><td>MRI_GEN_WORK_4_SALARY_PCT</td><td><p>I work primarily for the salary</p></td></tr>
-			<tr><td>MRI_GEN_PREFER_ROUTINE_PCT</td><td><p>I prefer a set routine in my daily life</p></td></tr>
-			<tr><td>MRI_GEN_ENV_SERIOUS_THREAT_PCT</td><td><p>Climate change is a serious threat</p></td></tr>
-			<tr><td>MRI_GEN_HOME_SHOW_PCT</td><td><p>I enjoy showing off my home to guests</p></td></tr>
-			<tr><td>MRI_GEN_ETH_CELEB_PCT</td><td><p>I feel really good about seeing celebrities in the media that share my ethnic background</p></td></tr>
-			<tr><td>MRI_GEN_FOREIGN_CULT_PCT</td><td><p>I like to learn about foreign cultures</p></td></tr>
-			<tr><td>MRI_GEN_HOME_NEAT_PCT</td><td><p>Keeping a neat, organized home is a top priority for me</p></td></tr>
-			<tr><td>MRI_GEN_ENV_RECYCLE_PCT</td><td><p>People have a responsibility to use recycled products whenever possible</p></td></tr>
-			<tr><td>MRI_GEN_ENV_CONSCIOUS_PCT</td><td><p>I feel I am more environmentally conscious than most people</p></td></tr>
-			<tr><td>MRI_GEN_WORK_WKND_PCT</td><td><p>I must admit, I work most weekends</p></td></tr>
-			<tr><td>MRI_GEN_INDULGE_CHD_PCT</td><td><p>I often indulge my children with little extras</p></td></tr>
-			<tr><td>MRI_GEN_RELIGION_ATTEND_PCT</td><td><p>I attend religious services regularly</p></td></tr>
-			<tr><td>MRI_GEN_LIFE_FUN_PCT</td><td><p>My philosophy is Life should be as much fun as possible""</p></td></tr>
-			<tr><td>MRI_GEN_RELIGION_SPIRITUAL_PCT</td><td><p>I consider myself a spiritual person</p></td></tr>
-			<tr><td>MRI_GEN_FRIENDS_TOP_PCT</td><td><p>My friends are the most important thing in my life</p></td></tr>
-			<tr><td>MRI_GEN_FEEL_OUT_PCT</td><td><p>I often feel like my life is slipping out of control</p></td></tr>
-			<tr><td>MRI_GEN_ENJOY_CENTER_PCT</td><td><p>I enjoy being the center of attention</p></td></tr>
-			<tr><td>MRI_GEN_SEEK_ADVICE_PCT</td><td><p>I often seek advice from others when it comes to making purchase decisions</p></td></tr>
-			<tr><td>MRI_GEN_GOAL_TOP_PCT</td><td><p>My goal is to make it to the top of my profession</p></td></tr>
-			<tr><td>MRI_GEN_SEEK_VARIETY_PCT</td><td><p>I seek out variety in my everyday life</p></td></tr>
-			<tr><td>MRI_GEN_ETH_CHD_PCT</td><td><p>Its important to me that my children continue my familys cultural traditions</p></td></tr>
-			<tr><td>MRI_GEN_FAM_OTHERS_PCT</td><td><p>Family is important to me, but I have other interests that are equally important</p></td></tr>
-			<tr><td>MRI_GEN_ENV_OVER_PCT</td><td><p>People who are worried about the environment are overreacting</p></td></tr>
-			<tr><td>MRI_GEN_ETH_HERITAGE_MATTERS_PCT</td><td><p>My cultural/ethnic heritage is an important part of who I am</p></td></tr>
-			<tr><td>MRI_GEN_AVOID_CONFRONT_PCT</td><td><p>I avoid confrontation whenever possible</p></td></tr>
-			<tr><td>MRI_GEN_FAM_MORE_TIME_PCT</td><td><p>I frequently wish I had more time to spend with my family</p></td></tr>
-			<tr><td>MRI_GEN_WORK_IF_LOTTERY_PCT</td><td><p>I would continue working even if I won the lottery</p></td></tr>
-			<tr><td>MRI_GEN_TAKE_TIME_PCT</td><td><p>I make sure I take time for myself each day</p></td></tr>
-			<tr><td>MRI_GEN_JUGGLING_STRESS_PCT</td><td><p>Juggling family and work demands is very stressful for me</p></td></tr>
-			<tr><td>MRI_GEN_ENV_TRANSP_PCT</td><td><p>I often choose methods of transportation that are friendlier to the environment</p></td></tr>
-			<tr><td>MRI_GEN_SI_LONER_PCT</td><td><p>I see myself as somewhat of a loner</p></td></tr>
-			<tr><td>MRI_GEN_HOME_EXPRESSION_PCT</td><td><p>My home is an expression of my personal style</p></td></tr>
-			<tr><td>MRI_GEN_SI_OUTSPOKEN_PCT</td><td><p>I consider myself outspoken</p></td></tr>
-			<tr><td>MRI_GEN_ETH_MAINTAIN_PCT</td><td><p>I enjoy maintaining traditions</p></td></tr>
-			<tr><td>MRI_GEN_ETH_MORE_THAN_PTS_PCT</td><td><p>Im more connected to my ethnic heritage than my parents are</p></td></tr>
-			<tr><td>MRI_GEN_LOVE_GOSSIP_PCT</td><td><p>I love keeping up with celebrity news and gossip</p></td></tr>
-			<tr><td>MRI_GEN_STAY_UP2DATE_PCT</td><td><p>To me, it is important to keep up-to-date with news and current affairs</p></td></tr>
-			<tr><td>MRI_GEN_PETS_PAMPER_PCT</td><td><p>Pets deserve to be pampered</p></td></tr>
-			<tr><td>MRI_GEN_FRIENDS_SMALL_PCT</td><td><p>I choose to have a small group of friends rather than a large group of acquaintances</p></td></tr>
-			<tr><td>MRI_GEN_WORK_CAREER_PCT</td><td><p>I consider my work to be a career, not just a job</p></td></tr>
-			<tr><td>MRI_GEN_TAKE_CHARGE_PCT</td><td><p>I am willing to take charge to get things done</p></td></tr>
-			<tr><td>MRI_GEN_HOME_SMELL_PCT</td><td><p>I make an extra effort to have my house smell fresh</p></td></tr>
-			<tr><td>MRI_GEN_GIFTER_PCT</td><td><p>I like to buy gifts as a way of expressing gratitude</p></td></tr>
-			<tr><td>MRI_GEN_ENV_OBLIGATION_PCT</td><td><p>Each of us has a personal obligation to do what we can to be environmentally responsible</p></td></tr>
-			<tr><td>MRI_GEN_ENV_CIVIL_PROTEST_PCT</td><td><p>If I feel strongly about an issue, I will participate in a civil protest</p></td></tr>
-			<tr><td>MRI_GEN_VOLUNTEER_PCT</td><td><p>I often volunteer my time for a good cause</p></td></tr>
-			<tr><td>MRI_GEN_CO_ACT_ETH_PCT</td><td><p>It is important that a company acts ethically</p></td></tr>
-			<tr><td>MRI_GEN_MARI_LEGAL_PCT</td><td><p>Marijuana should be legalized</p></td></tr>
-			<tr><td>MRI_GEN_FEEL_RESPECTED_PCT</td><td><p>Its important to me to feel respected by my peers</p></td></tr>
-			<tr><td>MRI_GEN_PREFER_QUIET_PCT</td><td><p>I prefer spending a quiet evening at home instead of going out</p></td></tr>
-			<tr><td>MRI_GEN_DECOR_MATTERS_PCT</td><td><p>Home decor is of particular interest to me</p></td></tr>
-			<tr><td>MRI_GEN_PARENTS_PROVIDE_MORE_PCT</td><td><p>I think it is good for parents to provide children with more things than they had</p></td></tr>
+			<tr><td>MRI_GEN_BUSY_PCT</td><td>I am so busy, I often cant finish everything I need to in a day</td></tr>
+			<tr><td>MRI_GEN_ENV_GOVATTN_PCT</td><td>The government should pay more attention to environmental issues</td></tr>
+			<tr><td>MRI_GEN_LIFECONTROL_PCT</td><td>I like to give the impression that my life is under control</td></tr>
+			<tr><td>MRI_GEN_BEMYOWNBOSS_PCT</td><td>Given the choice, I would be my own boss</td></tr>
+			<tr><td>MRI_GEN_RELIGION_PRAYER_PCT</td><td>Prayer is a part of my daily life</td></tr>
+			<tr><td>MRI_GEN_ENV_HELP_PCT</td><td>I am interested in finding out how I can help the environment</td></tr>
+			<tr><td>MRI_GEN_ENJOY_RISK_PCT</td><td>I enjoy taking risks</td></tr>
+			<tr><td>MRI_GEN_INTERESTED_FINEARTS_PCT</td><td>I am very interested in the fine arts</td></tr>
+			<tr><td>MRI_GEN_RELIGION_IS_PILLAR_PCT</td><td>Religion should be the pillar of our society</td></tr>
+			<tr><td>MRI_GEN_ENV_ROLE_MODEL_PCT</td><td>It is important to me that others see me as being environmentally conscious</td></tr>
+			<tr><td>MRI_GEN_LEAD_POS_PCT</td><td>I often find myself in a leadership position</td></tr>
+			<tr><td>MRI_GEN_IMPRESS_OTHERS_PCT</td><td>I like to live a lifestyle that impresses others</td></tr>
+			<tr><td>MRI_GEN_FAM_TOP_PRI_PCT</td><td>Spending time with my family is my top priority</td></tr>
+			<tr><td>MRI_GEN_WORK_4_SALARY_PCT</td><td>I work primarily for the salary</td></tr>
+			<tr><td>MRI_GEN_PREFER_ROUTINE_PCT</td><td>I prefer a set routine in my daily life</td></tr>
+			<tr><td>MRI_GEN_ENV_SERIOUS_THREAT_PCT</td><td>Climate change is a serious threat</td></tr>
+			<tr><td>MRI_GEN_HOME_SHOW_PCT</td><td>I enjoy showing off my home to guests</td></tr>
+			<tr><td>MRI_GEN_ETH_CELEB_PCT</td><td>I feel really good about seeing celebrities in the media that share my ethnic background</td></tr>
+			<tr><td>MRI_GEN_FOREIGN_CULT_PCT</td><td>I like to learn about foreign cultures</td></tr>
+			<tr><td>MRI_GEN_HOME_NEAT_PCT</td><td>Keeping a neat, organized home is a top priority for me</td></tr>
+			<tr><td>MRI_GEN_ENV_RECYCLE_PCT</td><td>People have a responsibility to use recycled products whenever possible</td></tr>
+			<tr><td>MRI_GEN_ENV_CONSCIOUS_PCT</td><td>I feel I am more environmentally conscious than most people</td></tr>
+			<tr><td>MRI_GEN_WORK_WKND_PCT</td><td>I must admit, I work most weekends</td></tr>
+			<tr><td>MRI_GEN_INDULGE_CHD_PCT</td><td>I often indulge my children with little extras</td></tr>
+			<tr><td>MRI_GEN_RELIGION_ATTEND_PCT</td><td>I attend religious services regularly</td></tr>
+			<tr><td>MRI_GEN_LIFE_FUN_PCT</td><td>My philosophy is Life should be as much fun as possible""</td></tr>
+			<tr><td>MRI_GEN_RELIGION_SPIRITUAL_PCT</td><td>I consider myself a spiritual person</td></tr>
+			<tr><td>MRI_GEN_FRIENDS_TOP_PCT</td><td>My friends are the most important thing in my life</td></tr>
+			<tr><td>MRI_GEN_FEEL_OUT_PCT</td><td>I often feel like my life is slipping out of control</td></tr>
+			<tr><td>MRI_GEN_ENJOY_CENTER_PCT</td><td>I enjoy being the center of attention</td></tr>
+			<tr><td>MRI_GEN_SEEK_ADVICE_PCT</td><td>I often seek advice from others when it comes to making purchase decisions</td></tr>
+			<tr><td>MRI_GEN_GOAL_TOP_PCT</td><td>My goal is to make it to the top of my profession</td></tr>
+			<tr><td>MRI_GEN_SEEK_VARIETY_PCT</td><td>I seek out variety in my everyday life</td></tr>
+			<tr><td>MRI_GEN_ETH_CHD_PCT</td><td>Its important to me that my children continue my familys cultural traditions</td></tr>
+			<tr><td>MRI_GEN_FAM_OTHERS_PCT</td><td>Family is important to me, but I have other interests that are equally important</td></tr>
+			<tr><td>MRI_GEN_ENV_OVER_PCT</td><td>People who are worried about the environment are overreacting</td></tr>
+			<tr><td>MRI_GEN_ETH_HERITAGE_MATTERS_PCT</td><td>My cultural/ethnic heritage is an important part of who I am</td></tr>
+			<tr><td>MRI_GEN_AVOID_CONFRONT_PCT</td><td>I avoid confrontation whenever possible</td></tr>
+			<tr><td>MRI_GEN_FAM_MORE_TIME_PCT</td><td>I frequently wish I had more time to spend with my family</td></tr>
+			<tr><td>MRI_GEN_WORK_IF_LOTTERY_PCT</td><td>I would continue working even if I won the lottery</td></tr>
+			<tr><td>MRI_GEN_TAKE_TIME_PCT</td><td>I make sure I take time for myself each day</td></tr>
+			<tr><td>MRI_GEN_JUGGLING_STRESS_PCT</td><td>Juggling family and work demands is very stressful for me</td></tr>
+			<tr><td>MRI_GEN_ENV_TRANSP_PCT</td><td>I often choose methods of transportation that are friendlier to the environment</td></tr>
+			<tr><td>MRI_GEN_SI_LONER_PCT</td><td>I see myself as somewhat of a loner</td></tr>
+			<tr><td>MRI_GEN_HOME_EXPRESSION_PCT</td><td>My home is an expression of my personal style</td></tr>
+			<tr><td>MRI_GEN_SI_OUTSPOKEN_PCT</td><td>I consider myself outspoken</td></tr>
+			<tr><td>MRI_GEN_ETH_MAINTAIN_PCT</td><td>I enjoy maintaining traditions</td></tr>
+			<tr><td>MRI_GEN_ETH_MORE_THAN_PTS_PCT</td><td>Im more connected to my ethnic heritage than my parents are</td></tr>
+			<tr><td>MRI_GEN_LOVE_GOSSIP_PCT</td><td>I love keeping up with celebrity news and gossip</td></tr>
+			<tr><td>MRI_GEN_STAY_UP2DATE_PCT</td><td>To me, it is important to keep up-to-date with news and current affairs</td></tr>
+			<tr><td>MRI_GEN_PETS_PAMPER_PCT</td><td>Pets deserve to be pampered</td></tr>
+			<tr><td>MRI_GEN_FRIENDS_SMALL_PCT</td><td>I choose to have a small group of friends rather than a large group of acquaintances</td></tr>
+			<tr><td>MRI_GEN_WORK_CAREER_PCT</td><td>I consider my work to be a career, not just a job</td></tr>
+			<tr><td>MRI_GEN_TAKE_CHARGE_PCT</td><td>I am willing to take charge to get things done</td></tr>
+			<tr><td>MRI_GEN_HOME_SMELL_PCT</td><td>I make an extra effort to have my house smell fresh</td></tr>
+			<tr><td>MRI_GEN_GIFTER_PCT</td><td>I like to buy gifts as a way of expressing gratitude</td></tr>
+			<tr><td>MRI_GEN_ENV_OBLIGATION_PCT</td><td>Each of us has a personal obligation to do what we can to be environmentally responsible</td></tr>
+			<tr><td>MRI_GEN_ENV_CIVIL_PROTEST_PCT</td><td>If I feel strongly about an issue, I will participate in a civil protest</td></tr>
+			<tr><td>MRI_GEN_VOLUNTEER_PCT</td><td>I often volunteer my time for a good cause</td></tr>
+			<tr><td>MRI_GEN_CO_ACT_ETH_PCT</td><td>It is important that a company acts ethically</td></tr>
+			<tr><td>MRI_GEN_MARI_LEGAL_PCT</td><td>Marijuana should be legalized</td></tr>
+			<tr><td>MRI_GEN_FEEL_RESPECTED_PCT</td><td>Its important to me to feel respected by my peers</td></tr>
+			<tr><td>MRI_GEN_PREFER_QUIET_PCT</td><td>I prefer spending a quiet evening at home instead of going out</td></tr>
+			<tr><td>MRI_GEN_DECOR_MATTERS_PCT</td><td>Home decor is of particular interest to me</td></tr>
+			<tr><td>MRI_GEN_PARENTS_PROVIDE_MORE_PCT</td><td>I think it is good for parents to provide children with more things than they had</td></tr>
 			<tr><td colspan="2"><b>25_MRI_TV</b>
- <span class="source_description">(<p>MRI TV Shows Watched - Double Base 2022 - 2024</p>)</span>
+ <span class="source_description">(MRI TV Shows Watched - Double Base 2022 - 2024)</span>
 </td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
-			<tr><td>MRI_TV_NETFLIX_OZARK</td><td><p>Netflix: Ozark</p></td></tr>
-			<tr><td>MRI_TV_SPORTS_CENTER</td><td><p>ESPN: SportsCenter</p></td></tr>
-			<tr><td>MRI_TV_NETFLIX_THECROWN</td><td><p>Netflix: The Crown</p></td></tr>
-			<tr><td>MRI_TV_FOODN_DINERS</td><td><p>Food Network: Diners, Drive-ins and Dives</p></td></tr>
-			<tr><td>MRI_TV_CNN_AC360</td><td><p>CNN: Anderson Cooper 360°</p></td></tr>
-			<tr><td>MRI_TV_PARAMOUNT_YELLOW</td><td><p>Paramount Network: Yellowstone</p></td></tr>
-			<tr><td>MRI_TV_NETFLIX_LOVEBLIND</td><td><p>Netflix: Love is Blind</p></td></tr>
-			<tr><td>MRI_TV_FOODN_CHOPPED</td><td><p>Food Network: Chopped</p></td></tr>
-			<tr><td>MRI_TV_FALLON</td><td><p>The Tonight Show with Jimmy Fallon</p></td></tr>
-			<tr><td>MRI_TV_CNN_TONIGHT</td><td><p>CNN: CNN Tonight</p></td></tr>
-			<tr><td>MRI_TV_TLC_PIMPLE</td><td><p>TLC: Dr. Pimple Popper</p></td></tr>
-			<tr><td>MRI_TV_FOX_ANDFRIENDS</td><td><p>Fox News Channel: Fox and Friends</p></td></tr>
-			<tr><td>MRI_TV_ATV_LASSO</td><td><p>Apple TV+: Ted Lasso</p></td></tr>
-			<tr><td>MRI_TV_FOX_HANNITY</td><td><p>Fox News Channel: Hannity</p></td></tr>
-			<tr><td>MRI_TV_COLBERT</td><td><p>Late Show with Stephen Colbert</p></td></tr>
-			<tr><td>MRI_TV_KIMMEL</td><td><p>Jimmy Kimmel Live</p></td></tr>
-			<tr><td>MRI_TV_ADSWIM_RICK</td><td><p>Adult Swim: Rick &amp; Morty</p></td></tr>
-			<tr><td>MRI_TV_DISC_DEADLIEST</td><td><p>Discovery Channel: Deadliest Catch</p></td></tr>
-			<tr><td>MRI_TV_DISC_NAKED</td><td><p>Discovery Channel: Naked &amp; Afraid</p></td></tr>
-			<tr><td>MRI_TV_TRU_IMPRACTICAL</td><td><p>truTV: Impractical Jokers</p></td></tr>
-			<tr><td>MRI_TV_ESPN_FIRST</td><td><p>ESPN: First Take</p></td></tr>
-			<tr><td>MRI_TV_DISC_GOLD</td><td><p>Discovery Channel: Gold Rush</p></td></tr>
-			<tr><td>MRI_TV_COMEDY_DAILY</td><td><p>Comedy Central: The Daily Show</p></td></tr>
-			<tr><td>MRI_TV_ATV_MORNING</td><td><p>Apple TV+: The Morning Show</p></td></tr>
-			<tr><td>MRI_TV_BRAVO_HAPPENS</td><td><p>Bravo: Watch What Happens Live</p></td></tr>
-			<tr><td>MRI_TV_CORDEN</td><td><p>Late Late Show with James Corden</p></td></tr>
-			<tr><td>MRI_TV_SETH</td><td><p>Late Night with Seth Meyers</p></td></tr>
-			<tr><td>MRI_TV_ASWIM_EUTHANASIA</td><td><p>Adult Swim: Teenage Euthanasia</p></td></tr>
-			<tr><td>MRI_TV_CVS_OVERNIGHT</td><td><p>CBS Overnight News</p></td></tr>
+			<tr><td>MRI_TV_NETFLIX_OZARK</td><td>Netflix: Ozark</td></tr>
+			<tr><td>MRI_TV_SPORTS_CENTER</td><td>ESPN: SportsCenter</td></tr>
+			<tr><td>MRI_TV_NETFLIX_THECROWN</td><td>Netflix: The Crown</td></tr>
+			<tr><td>MRI_TV_FOODN_DINERS</td><td>Food Network: Diners, Drive-ins and Dives</td></tr>
+			<tr><td>MRI_TV_CNN_AC360</td><td>CNN: Anderson Cooper 360°</td></tr>
+			<tr><td>MRI_TV_PARAMOUNT_YELLOW</td><td>Paramount Network: Yellowstone</td></tr>
+			<tr><td>MRI_TV_NETFLIX_LOVEBLIND</td><td>Netflix: Love is Blind</td></tr>
+			<tr><td>MRI_TV_FOODN_CHOPPED</td><td>Food Network: Chopped</td></tr>
+			<tr><td>MRI_TV_FALLON</td><td>The Tonight Show with Jimmy Fallon</td></tr>
+			<tr><td>MRI_TV_CNN_TONIGHT</td><td>CNN: CNN Tonight</td></tr>
+			<tr><td>MRI_TV_TLC_PIMPLE</td><td>TLC: Dr. Pimple Popper</td></tr>
+			<tr><td>MRI_TV_FOX_ANDFRIENDS</td><td>Fox News Channel: Fox and Friends</td></tr>
+			<tr><td>MRI_TV_ATV_LASSO</td><td>Apple TV+: Ted Lasso</td></tr>
+			<tr><td>MRI_TV_FOX_HANNITY</td><td>Fox News Channel: Hannity</td></tr>
+			<tr><td>MRI_TV_COLBERT</td><td>Late Show with Stephen Colbert</td></tr>
+			<tr><td>MRI_TV_KIMMEL</td><td>Jimmy Kimmel Live</td></tr>
+			<tr><td>MRI_TV_ADSWIM_RICK</td><td>Adult Swim: Rick & Morty</td></tr>
+			<tr><td>MRI_TV_DISC_DEADLIEST</td><td>Discovery Channel: Deadliest Catch</td></tr>
+			<tr><td>MRI_TV_DISC_NAKED</td><td>Discovery Channel: Naked & Afraid</td></tr>
+			<tr><td>MRI_TV_TRU_IMPRACTICAL</td><td>truTV: Impractical Jokers</td></tr>
+			<tr><td>MRI_TV_ESPN_FIRST</td><td>ESPN: First Take</td></tr>
+			<tr><td>MRI_TV_DISC_GOLD</td><td>Discovery Channel: Gold Rush</td></tr>
+			<tr><td>MRI_TV_COMEDY_DAILY</td><td>Comedy Central: The Daily Show</td></tr>
+			<tr><td>MRI_TV_ATV_MORNING</td><td>Apple TV+: The Morning Show</td></tr>
+			<tr><td>MRI_TV_BRAVO_HAPPENS</td><td>Bravo: Watch What Happens Live</td></tr>
+			<tr><td>MRI_TV_CORDEN</td><td>Late Late Show with James Corden</td></tr>
+			<tr><td>MRI_TV_SETH</td><td>Late Night with Seth Meyers</td></tr>
+			<tr><td>MRI_TV_ASWIM_EUTHANASIA</td><td>Adult Swim: Teenage Euthanasia</td></tr>
+			<tr><td>MRI_TV_CVS_OVERNIGHT</td><td>CBS Overnight News</td></tr>
 			<tr><td colspan="2"><b>_CLUSTERSV46</b>
 
 </td></tr>
