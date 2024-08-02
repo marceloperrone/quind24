@@ -9,10 +9,10 @@
 		<link rel="manifest" href="/ico/site.webmanifest">
 	</head>
 	<body>
+			<div class="source_header">00_GEOFIPS_BASE</div>
+ <div class="source_description">(Geographic FIPS Codes (2020 Census Update))</div>
+<div class="source_long_description">American National Standards Institute (ANSI) codes are standardized numeric or alphabetic codes whose documentation is issued by ANSI to ensure uniform identification of geographic entities through all government agencies. The county subdivisions and places tables provide the 5-digit Federal Information Processing Series (FIPS) codes, formerly referred to as FIPS55, assigned and maintained by the Census Bureau. This is also accompanied by a TIGER Line ID, which is a unique identifier assigned by the Census Bureau to each legal/statistical area entity for the purpose of linking data from the decennial census and other geographic programs. https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip</div>
 		<table>
-			<tr><td colspan="2"><b>00_GEOFIPS_BASE</b>
- <span class="source_description">(Geographic FIPS Codes (2020 Census Update))</span>
-<div class="source_long_description">American National Standards Institute (ANSI) codes are standardized numeric or alphabetic codes whose documentation is issued by ANSI to ensure uniform identification of geographic entities through all government agencies. The county subdivisions and places tables provide the 5-digit Federal Information Processing Series (FIPS) codes, formerly referred to as FIPS55, assigned and maintained by the Census Bureau. This is also accompanied by a TIGER Line ID, which is a unique identifier assigned by the Census Bureau to each legal/statistical area entity for the purpose of linking data from the decennial census and other geographic programs. https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip</div></td></tr>
 			<tr><td>GEO_FIPS</td><td>State-County FIPS code</td></tr>
 			<tr><td>STATE_FIPS</td><td>State FIPS code</td></tr>
 			<tr><td>COUNTY_FIPS</td><td>County FIPS code</td></tr>
@@ -21,18 +21,18 @@
 			<tr><td>COUNTY_NAME</td><td>County name and legal/statistical area description</td></tr>
 			<tr><td>COUNTY_NSCODE</td><td>County NS code</td></tr>
 		</table>
+			<div class="source_header">01_RURAL_URBAN_CONTINUUM_CODES</div>
+ <div class="source_description">(Rural-Urban Continuum Codes (2023))</div>
+<div class="source_long_description">The 2023 Rural-Urban Continuum Codes distinguish U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area. The division of counties as either metro or nonmetro, based on the 2023 Office of Management and Budget (OMB) delineation of metro areas, is further subdivided into three metro and six nonmetro categories. Each county and census-designated county-equivalent in the United States, including those in outlying territories, is assigned one of these nine codes.</div>
 		<table>
-			<tr><td colspan="2"><b>01_RURAL_URBAN_CONTINUUM_CODES</b>
- <span class="source_description">(Rural-Urban Continuum Codes (2023))</span>
-<div class="source_long_description">The 2023 Rural-Urban Continuum Codes distinguish U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area. The division of counties as either metro or nonmetro, based on the 2023 Office of Management and Budget (OMB) delineation of metro areas, is further subdivided into three metro and six nonmetro categories. Each county and census-designated county-equivalent in the United States, including those in outlying territories, is assigned one of these nine codes.</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>R_CONTINUUM_CODE</td><td>Metro counties are classified as 1-3 based on their population (1M, 250K, below ), Non-Metro counties are classified as 4-9 based on population and adjency to metro areas (4=adjacent to metro with 1M+, 9=remote from metro)</td></tr>
 			<tr><td>R_CODE</td><td>Inferred code for rural (R) or urban (U) based on R_CONTINUUM_CODE</td></tr>
 		</table>
+			<div class="source_header">02_POP_AGE_RACE_ETH</div>
+ <div class="source_description">((CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. )</div>
+<div class="source_long_description">Populations can change in three ways: people may be born (births), they may die (deaths), or they may move (domestic and international migration). The U.S. Census Bureau’s Population Estimates Program measures this change and adds it to a base population to produce updated estimates every year. With each annual release of population estimates, the Population Estimates Program revises and updates the entire time series of estimates from April 1, 2020 to July 1 of the current year, which we refer to as the vintage year. We use the term “vintage” to denote an entire time series created with a consistent population starting point and methodology. The release of a new vintage of estimates supersedes any previous series and incorporates the most up-to-date input data and methodological improvements. The population estimates are used for federal funding allocations, as controls for major surveys including the Current Population Survey and the American Community Survey (ACS), for community development, to aid business planning, and as denominators for statistical rates, among many other uses. Metadata at https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2023/CC-EST2023-ALLDATA.pdf</div>
 		<table>
-			<tr><td colspan="2"><b>02_POP_AGE_RACE_ETH</b>
- <span class="source_description">((CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. )</span>
-<div class="source_long_description">Populations can change in three ways: people may be born (births), they may die (deaths), or they may move (domestic and international migration). The U.S. Census Bureau’s Population Estimates Program measures this change and adds it to a base population to produce updated estimates every year. With each annual release of population estimates, the Population Estimates Program revises and updates the entire time series of estimates from April 1, 2020 to July 1 of the current year, which we refer to as the vintage year. We use the term “vintage” to denote an entire time series created with a consistent population starting point and methodology. The release of a new vintage of estimates supersedes any previous series and incorporates the most up-to-date input data and methodological improvements. The population estimates are used for federal funding allocations, as controls for major surveys including the Current Population Survey and the American Community Survey (ACS), for community development, to aid business planning, and as denominators for statistical rates, among many other uses. Metadata at https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2023/CC-EST2023-ALLDATA.pdf</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>POP_TOT_2023_NUM</td><td>Total population (2023)</td></tr>
 			<tr><td>POP_TOT_U19Y_2023_PCT</td><td>Population under 19 years old as a share of total population(2023)</td></tr>
@@ -239,19 +239,19 @@
 			<tr><td>POP_NHTOM_35TO64Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2020)</td></tr>
 			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2020)</td></tr>
 		</table>
+			<div class="source_header">03_ECONOMIC_TYPOLOGY2015</div>
+ <div class="source_description">(ERS County Typology Codes, 2015 Edition)</div>
+<div class="source_long_description">Labor and proprietors earnings and employment by place of work are the basis for the economic dependence categories. Each industrys earnings and employment were calculated separately as a percent of total labor and proprietors earnings or total employment in the county in 2010, 2011, and 2012. These percentages were summed, and divided by 3 to obtain annual average percentages. This averaging was done to minimize the effects of any one-year anomaly in an industrys earnings or employment. County-level estimates of earnings and employment by place of work used to measure economic dependence come from the Bureau of Economic Analysis (BEA) Regional Local Area Personal Income & Employment data. The BEA income and employment data used were released in November 2014. The BEA industry data use the North American Industry Classification System (NAICS). Publicly available data (with some industry suppression at the county level) were used for Florida, Massachusetts, Mississippi, New Hampshire, and Wyoming. For all other States, unsuppressed data, not publicly available, were used to develop the economic classifications. On May 31, 2017, the ERS 2015 County Typology Codes were revised for six counties to correct a coding error. More details of the methodology can be found at https://www.ers.usda.gov/data-products/county-typology-codes/documentation/</div>
 		<table>
-			<tr><td colspan="2"><b>03_ECONOMIC_TYPOLOGY2015</b>
- <span class="source_description">(ERS County Typology Codes, 2015 Edition)</span>
-<div class="source_long_description">Labor and proprietors earnings and employment by place of work are the basis for the economic dependence categories. Each industrys earnings and employment were calculated separately as a percent of total labor and proprietors earnings or total employment in the county in 2010, 2011, and 2012. These percentages were summed, and divided by 3 to obtain annual average percentages. This averaging was done to minimize the effects of any one-year anomaly in an industrys earnings or employment. County-level estimates of earnings and employment by place of work used to measure economic dependence come from the Bureau of Economic Analysis (BEA) Regional Local Area Personal Income & Employment data. The BEA income and employment data used were released in November 2014. The BEA industry data use the North American Industry Classification System (NAICS). Publicly available data (with some industry suppression at the county level) were used for Florida, Massachusetts, Mississippi, New Hampshire, and Wyoming. For all other States, unsuppressed data, not publicly available, were used to develop the economic classifications. On May 31, 2017, the ERS 2015 County Typology Codes were revised for six counties to correct a coding error. More details of the methodology can be found at https://www.ers.usda.gov/data-products/county-typology-codes/documentation/</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>ECON_TYPE_CAT</td><td>Economic Type Category</td></tr>
 			<tr><td>ECON_TYPE_LBL</td><td>Economic Type Label</td></tr>
 			<tr><td>ECON_TYPE_RETDEST_BIN</td><td>Economic Type Retirement Destination Binary</td></tr>
 		</table>
+			<div class="source_header">04_PERSINC_EMPLOYMENT</div>
+ <div class="source_description">(Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis)</div>
+<div class="source_long_description">GDP by county is published at the sector level, however, many industries are estimated at the three-digit North American Industry Classification System (NAICS) level. To estimate the county residual portion of GDP for each industry, BEA first calculates the state-level residual value for each industry from BEA’s GDP by state statistics. County level industry source data are used as indicators to distribute the calculated state-level residual portion for each industry to produce county estimates. The resulting county statistics sum to published GDP by state by industry. More info here: https://www.bea.gov/system/files/2019-12/One_Page_Methodology_v6.pdf</div>
 		<table>
-			<tr><td colspan="2"><b>04_PERSINC_EMPLOYMENT</b>
- <span class="source_description">(Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis)</span>
-<div class="source_long_description">GDP by county is published at the sector level, however, many industries are estimated at the three-digit North American Industry Classification System (NAICS) level. To estimate the county residual portion of GDP for each industry, BEA first calculates the state-level residual value for each industry from BEA’s GDP by state statistics. County level industry source data are used as indicators to distribute the calculated state-level residual portion for each industry to produce county estimates. The resulting county statistics sum to published GDP by state by industry. More info here: https://www.bea.gov/system/files/2019-12/One_Page_Methodology_v6.pdf</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>PERSINC_1992_USD</td><td>Personal income (1992) - Consists of the income that persons receive in return for their provision of labor, land, and capital used in current production as well as other income, such as personal current transfer receipts. In the state and local personal income accounts the personal income of an area represents the income received by or on behalf of the persons residing in that area. It is calculated as the sum of wages and salaries, supplements to wages and salaries, proprietors income with inventory valuation (IVA) and capital consumption adjustments (CCAdj), rental income of persons with capital consumption adjustment (CCAdj), personal dividend income, personal interest income, and personal current transfer receipts, less contributions for government social insurance plus the adjustment for residence.</td></tr>
 			<tr><td>PERSINC_1997_USD</td><td>Personal income (1997)</td></tr>
@@ -443,10 +443,10 @@
 			<tr><td>NONFARM_PROP_INC_2021_CHG_PCT</td><td></td></tr>
 			<tr><td>NONFARM_PROP_INC_2022_CHG_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>05_UNEMPLOYMENT</b>
+			<div class="source_header">05_UNEMPLOYMENT</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>UNEMP_RATE_2000_PCT</td><td></td></tr>
 			<tr><td>UNEMP_RATE_2001_PCT</td><td></td></tr>
@@ -472,20 +472,20 @@
 			<tr><td>UNEMP_RATE_2021_PCT</td><td></td></tr>
 			<tr><td>UNEMP_RATE_2022_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>06_EDUCATION</b>
+			<div class="source_header">06_EDUCATION</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>EDU_BACH_2022_PCT</td><td></td></tr>
 			<tr><td>EDU_COLLEGE_2022_PCT</td><td></td></tr>
 			<tr><td>EDU_HIGHONLY_2022_PCT</td><td></td></tr>
 			<tr><td>EDU_NOHIGH_2022_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>07_ELECTIONS</b>
+			<div class="source_header">07_ELECTIONS</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>ELE_DEMOCRAT_2000_PCT</td><td></td></tr>
 			<tr><td>ELE_REPUBLICAN_2000_PCT</td><td></td></tr>
@@ -500,37 +500,37 @@
 			<tr><td>ELE_DEMOCRAT_2020_PCT</td><td></td></tr>
 			<tr><td>ELE_REPUBLICAN_2020_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>08_POVERTY</b>
+			<div class="source_header">08_POVERTY</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>POV_ALLAGES_2022_NUM</td><td></td></tr>
 			<tr><td>POV_ALLAGES_2022_PCT</td><td></td></tr>
 			<tr><td>POV_MEDHHINC_2022_USD</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>09_FOOD_SECURITY</b>
+			<div class="source_header">09_FOOD_SECURITY</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>FOOD_INSECURITY_2022_PCT</td><td></td></tr>
 			<tr><td>FOOD_INSECURITY_2022_NUM</td><td></td></tr>
 			<tr><td>FOOD_CHD_INSECURITY_2022_PCT</td><td></td></tr>
 			<tr><td>FOOD_PERMEAL_2022_USD</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>10_COVID_VAX</b>
+			<div class="source_header">10_COVID_VAX</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>CVD19_PRIMARY_PCT</td><td></td></tr>
 			<tr><td>CVD19_BOOSTER_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>11_HEALTH_MEASURES</b>
+			<div class="source_header">11_HEALTH_MEASURES</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>HM_BLOODPRESS_2021_PCT</td><td></td></tr>
 			<tr><td>HM_BLOODPRESS_CONTROL_2021_PCT</td><td></td></tr>
@@ -550,10 +550,10 @@
 			<tr><td>HM_SMOKING_2021_PCT</td><td></td></tr>
 			<tr><td>HM_STROKE_2021_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>12_POP_CHANGES_2020_2023</b>
+			<div class="source_header">12_POP_CHANGES_2020_2023</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>PCH_POPCHG_2021_NUM</td><td></td></tr>
 			<tr><td>PCH_POPCHG_2022_NUM</td><td></td></tr>
@@ -605,10 +605,10 @@
 			<tr><td>PCH_NETMIG_2022_PCT</td><td></td></tr>
 			<tr><td>PCH_NETMIG_2023_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>13_GDP</b>
+			<div class="source_header">13_GDP</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>GDP_PRIVATE_2017_USD</td><td></td></tr>
 			<tr><td>GDP_TOT_2017_USD</td><td></td></tr>
@@ -628,17 +628,17 @@
 			<tr><td>GDP_GROWTH_2021_PCT</td><td></td></tr>
 			<tr><td>GDP_GROWTH_2022_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>14_GINI</b>
+			<div class="source_header">14_GINI</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>GINI_2022_IND</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>15_INDUSTRY_OCCUPATION</b>
+			<div class="source_header">15_INDUSTRY_OCCUPATION</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>TOT_16YRUP_EMPLOYED_2022_NUM</td><td></td></tr>
 			<tr><td>IOC_I_AGR_22_PCT</td><td></td></tr>
@@ -660,10 +660,10 @@
 			<tr><td>IOC_O_NAT_22_PCT</td><td></td></tr>
 			<tr><td>IOC_O_PRO_22_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>16_SOCIAL_CHARACTERISTICS</b>
+			<div class="source_header">16_SOCIAL_CHARACTERISTICS</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>SSC_UNM_WOMEN_BIRTHP12M_PCT</td><td></td></tr>
 			<tr><td>SSC_UNM_WOMEN_BIRTHP12M_NUM</td><td></td></tr>
@@ -685,10 +685,10 @@
 			<tr><td>SSC_MARITAL_WIDOWED_PCT</td><td></td></tr>
 			<tr><td>SSC_MARITAL_DIVORCED_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>17_HEALTH_INSURANCE</b>
+			<div class="source_header">17_HEALTH_INSURANCE</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>NI_INS_PCT</td><td></td></tr>
 			<tr><td>NI_INS_PRI_PCT</td><td></td></tr>
@@ -699,10 +699,10 @@
 			<tr><td>NI_19-64_LAB_UNE_POP_PCT</td><td></td></tr>
 			<tr><td>NI_19-64_NLAB_POP_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>18_AREA_HEALTH_RESOURCES</b>
+			<div class="source_header">18_AREA_HEALTH_RESOURCES</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>HCPWF_ALLMDS_NUM</td><td></td></tr>
 			<tr><td>HCPWF_ACTIVEDO_NUM</td><td></td></tr>
@@ -715,27 +715,27 @@
 			<tr><td>HCPWF_NURSESPER1000_PCT</td><td></td></tr>
 			<tr><td>HCPWF_DENTSPER1000_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>19_DRUG_POISONING</b>
+			<div class="source_header">19_DRUG_POISONING</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>DRUG_MORTALITY_2021_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>20_GEOGRAPHIC</b>
+			<div class="source_header">20_GEOGRAPHIC</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>ALAND_SQMI_NUM</td><td></td></tr>
 			<tr><td>AWATER_SQMI_NUM</td><td></td></tr>
 			<tr><td>GEOLAT_NUM</td><td></td></tr>
 			<tr><td>GEOLONG_NUM</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>21_HOUSING</b>
+			<div class="source_header">21_HOUSING</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>HC_UNITS_TOTAL_NUM</td><td></td></tr>
 			<tr><td>HC_UNITS_OCCU_NUM</td><td></td></tr>
@@ -779,10 +779,10 @@
 			<tr><td>HC_OCCU_VEH_123PLUS_NUM</td><td></td></tr>
 			<tr><td>HC_OCCU_VEH_123PLUS_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>22_COMMUTE</b>
+			<div class="source_header">22_COMMUTE</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>G2W_CTW_CAR_PCT</td><td></td></tr>
 			<tr><td>G2W_CTW_CAR_ALONE_PCT</td><td></td></tr>
@@ -822,10 +822,10 @@
 			<tr><td>G2W_CTW_TIME-15TO29MINS_PCT</td><td></td></tr>
 			<tr><td>G2W_CTW_TIME-30TO59MINS_PCT</td><td></td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>23_NIELSENABCD</b>
+			<div class="source_header">23_NIELSENABCD</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>ST_ABBR</td><td></td></tr>
 			<tr><td>NIELSEN_COUNTY_SIZE</td><td></td></tr>
@@ -835,10 +835,10 @@
 			<tr><td>CBSA_NAME</td><td></td></tr>
 			<tr><td>MARKETING_REGION_NAME</td><td></td></tr>
 		</table>
+			<div class="source_header">24_MRI_GENERAL</div>
+ <div class="source_description">(MRI General Attitudes - Double Base 2022 - 2024)</div>
+
 		<table>
-			<tr><td colspan="2"><b>24_MRI_GENERAL</b>
- <span class="source_description">(MRI General Attitudes - Double Base 2022 - 2024)</span>
-</td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>MRI_GEN_BUSY_PCT</td><td>I am so busy, I often cant finish everything I need to in a day</td></tr>
 			<tr><td>MRI_GEN_ENV_GOVATTN_PCT</td><td>The government should pay more attention to environmental issues</td></tr>
@@ -906,10 +906,10 @@
 			<tr><td>MRI_GEN_DECOR_MATTERS_PCT</td><td>Home decor is of particular interest to me</td></tr>
 			<tr><td>MRI_GEN_PARENTS_PROVIDE_MORE_PCT</td><td>I think it is good for parents to provide children with more things than they had</td></tr>
 		</table>
+			<div class="source_header">25_MRI_TV</div>
+ <div class="source_description">(MRI TV Shows Watched - Double Base 2022 - 2024)</div>
+
 		<table>
-			<tr><td colspan="2"><b>25_MRI_TV</b>
- <span class="source_description">(MRI TV Shows Watched - Double Base 2022 - 2024)</span>
-</td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>MRI_TV_NETFLIX_OZARK</td><td>Netflix: Ozark</td></tr>
 			<tr><td>MRI_TV_SPORTS_CENTER</td><td>ESPN: SportsCenter</td></tr>
@@ -941,10 +941,10 @@
 			<tr><td>MRI_TV_ASWIM_EUTHANASIA</td><td>Adult Swim: Teenage Euthanasia</td></tr>
 			<tr><td>MRI_TV_CVS_OVERNIGHT</td><td>CBS Overnight News</td></tr>
 		</table>
-		<table>
-			<tr><td colspan="2"><b>_CLUSTERSV46</b>
+			<div class="source_header">_CLUSTERSV46</div>
 
-</td></tr>
+
+		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>cluster</td><td></td></tr>
 		</table>
