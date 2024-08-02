@@ -20,12 +20,16 @@
 			<tr><td>STATE_NAME</td><td>State name</td></tr>
 			<tr><td>COUNTY_NAME</td><td>County name and legal/statistical area description</td></tr>
 			<tr><td>COUNTY_NSCODE</td><td>County NS code</td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>01_RURAL_URBAN_CONTINUUM_CODES</b>
  <span class="source_description">(Rural-Urban Continuum Codes (2023))</span>
 <div class="source_long_description">The 2023 Rural-Urban Continuum Codes distinguish U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area. The division of counties as either metro or nonmetro, based on the 2023 Office of Management and Budget (OMB) delineation of metro areas, is further subdivided into three metro and six nonmetro categories. Each county and census-designated county-equivalent in the United States, including those in outlying territories, is assigned one of these nine codes.</div></td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>R_CONTINUUM_CODE</td><td>Metro counties are classified as 1-3 based on their population (1M, 250K, below ), Non-Metro counties are classified as 4-9 based on population and adjency to metro areas (4=adjacent to metro with 1M+, 9=remote from metro)</td></tr>
 			<tr><td>R_CODE</td><td>Inferred code for rural (R) or urban (U) based on R_CONTINUUM_CODE</td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>02_POP_AGE_RACE_ETH</b>
  <span class="source_description">((CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. )</span>
 <div class="source_long_description">Populations can change in three ways: people may be born (births), they may die (deaths), or they may move (domestic and international migration). The U.S. Census Bureau’s Population Estimates Program measures this change and adds it to a base population to produce updated estimates every year. With each annual release of population estimates, the Population Estimates Program revises and updates the entire time series of estimates from April 1, 2020 to July 1 of the current year, which we refer to as the vintage year. We use the term “vintage” to denote an entire time series created with a consistent population starting point and methodology. The release of a new vintage of estimates supersedes any previous series and incorporates the most up-to-date input data and methodological improvements. The population estimates are used for federal funding allocations, as controls for major surveys including the Current Population Survey and the American Community Survey (ACS), for community development, to aid business planning, and as denominators for statistical rates, among many other uses. Metadata at https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2023/CC-EST2023-ALLDATA.pdf</div></td></tr>
@@ -234,6 +238,8 @@
 			<tr><td>POP_NHTOM_20TO34Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 20 and 34 years old (2020)</td></tr>
 			<tr><td>POP_NHTOM_35TO64Y_2020_NUM</td><td>Not Hispanic, Two or More Races population between 35 and 64 years old (2020)</td></tr>
 			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2020)</td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>03_ECONOMIC_TYPOLOGY2015</b>
  <span class="source_description">(ERS County Typology Codes, 2015 Edition)</span>
 <div class="source_long_description">Labor and proprietors earnings and employment by place of work are the basis for the economic dependence categories. Each industrys earnings and employment were calculated separately as a percent of total labor and proprietors earnings or total employment in the county in 2010, 2011, and 2012. These percentages were summed, and divided by 3 to obtain annual average percentages. This averaging was done to minimize the effects of any one-year anomaly in an industrys earnings or employment. County-level estimates of earnings and employment by place of work used to measure economic dependence come from the Bureau of Economic Analysis (BEA) Regional Local Area Personal Income & Employment data. The BEA income and employment data used were released in November 2014. The BEA industry data use the North American Industry Classification System (NAICS). Publicly available data (with some industry suppression at the county level) were used for Florida, Massachusetts, Mississippi, New Hampshire, and Wyoming. For all other States, unsuppressed data, not publicly available, were used to develop the economic classifications. On May 31, 2017, the ERS 2015 County Typology Codes were revised for six counties to correct a coding error. More details of the methodology can be found at https://www.ers.usda.gov/data-products/county-typology-codes/documentation/</div></td></tr>
@@ -241,6 +247,8 @@
 			<tr><td>ECON_TYPE_CAT</td><td>Economic Type Category</td></tr>
 			<tr><td>ECON_TYPE_LBL</td><td>Economic Type Label</td></tr>
 			<tr><td>ECON_TYPE_RETDEST_BIN</td><td>Economic Type Retirement Destination Binary</td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>04_PERSINC_EMPLOYMENT</b>
  <span class="source_description">(Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis)</span>
 <div class="source_long_description">GDP by county is published at the sector level, however, many industries are estimated at the three-digit North American Industry Classification System (NAICS) level. To estimate the county residual portion of GDP for each industry, BEA first calculates the state-level residual value for each industry from BEA’s GDP by state statistics. County level industry source data are used as indicators to distribute the calculated state-level residual portion for each industry to produce county estimates. The resulting county statistics sum to published GDP by state by industry. More info here: https://www.bea.gov/system/files/2019-12/One_Page_Methodology_v6.pdf</div></td></tr>
@@ -434,6 +442,8 @@
 			<tr><td>NONFARM_PROP_INC_2020_CHG_PCT</td><td></td></tr>
 			<tr><td>NONFARM_PROP_INC_2021_CHG_PCT</td><td></td></tr>
 			<tr><td>NONFARM_PROP_INC_2022_CHG_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>05_UNEMPLOYMENT</b>
 
 </td></tr>
@@ -461,6 +471,8 @@
 			<tr><td>UNEMP_RATE_2020_PCT</td><td></td></tr>
 			<tr><td>UNEMP_RATE_2021_PCT</td><td></td></tr>
 			<tr><td>UNEMP_RATE_2022_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>06_EDUCATION</b>
 
 </td></tr>
@@ -469,6 +481,8 @@
 			<tr><td>EDU_COLLEGE_2022_PCT</td><td></td></tr>
 			<tr><td>EDU_HIGHONLY_2022_PCT</td><td></td></tr>
 			<tr><td>EDU_NOHIGH_2022_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>07_ELECTIONS</b>
 
 </td></tr>
@@ -485,6 +499,8 @@
 			<tr><td>ELE_REPUBLICAN_2016_PCT</td><td></td></tr>
 			<tr><td>ELE_DEMOCRAT_2020_PCT</td><td></td></tr>
 			<tr><td>ELE_REPUBLICAN_2020_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>08_POVERTY</b>
 
 </td></tr>
@@ -492,6 +508,8 @@
 			<tr><td>POV_ALLAGES_2022_NUM</td><td></td></tr>
 			<tr><td>POV_ALLAGES_2022_PCT</td><td></td></tr>
 			<tr><td>POV_MEDHHINC_2022_USD</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>09_FOOD_SECURITY</b>
 
 </td></tr>
@@ -500,12 +518,16 @@
 			<tr><td>FOOD_INSECURITY_2022_NUM</td><td></td></tr>
 			<tr><td>FOOD_CHD_INSECURITY_2022_PCT</td><td></td></tr>
 			<tr><td>FOOD_PERMEAL_2022_USD</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>10_COVID_VAX</b>
 
 </td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>CVD19_PRIMARY_PCT</td><td></td></tr>
 			<tr><td>CVD19_BOOSTER_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>11_HEALTH_MEASURES</b>
 
 </td></tr>
@@ -527,6 +549,8 @@
 			<tr><td>HM_SELFRATEDHEALTH_2021_PCT</td><td></td></tr>
 			<tr><td>HM_SMOKING_2021_PCT</td><td></td></tr>
 			<tr><td>HM_STROKE_2021_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>12_POP_CHANGES_2020_2023</b>
 
 </td></tr>
@@ -580,6 +604,8 @@
 			<tr><td>PCH_NETMIG_2021_PCT</td><td></td></tr>
 			<tr><td>PCH_NETMIG_2022_PCT</td><td></td></tr>
 			<tr><td>PCH_NETMIG_2023_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>13_GDP</b>
 
 </td></tr>
@@ -601,11 +627,15 @@
 			<tr><td>GDP_GROWTH_2020_PCT</td><td></td></tr>
 			<tr><td>GDP_GROWTH_2021_PCT</td><td></td></tr>
 			<tr><td>GDP_GROWTH_2022_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>14_GINI</b>
 
 </td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>GINI_2022_IND</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>15_INDUSTRY_OCCUPATION</b>
 
 </td></tr>
@@ -629,6 +659,8 @@
 			<tr><td>IOC_O_SAO_22_PCT</td><td></td></tr>
 			<tr><td>IOC_O_NAT_22_PCT</td><td></td></tr>
 			<tr><td>IOC_O_PRO_22_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>16_SOCIAL_CHARACTERISTICS</b>
 
 </td></tr>
@@ -652,6 +684,8 @@
 			<tr><td>SSC_MARITAL_SEPARATED_PCT</td><td></td></tr>
 			<tr><td>SSC_MARITAL_WIDOWED_PCT</td><td></td></tr>
 			<tr><td>SSC_MARITAL_DIVORCED_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>17_HEALTH_INSURANCE</b>
 
 </td></tr>
@@ -664,6 +698,8 @@
 			<tr><td>NI_19-64_LAB_EMP_POP_PCT</td><td></td></tr>
 			<tr><td>NI_19-64_LAB_UNE_POP_PCT</td><td></td></tr>
 			<tr><td>NI_19-64_NLAB_POP_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>18_AREA_HEALTH_RESOURCES</b>
 
 </td></tr>
@@ -678,11 +714,15 @@
 			<tr><td>HCPWF_PHYSPER1000_PCT</td><td></td></tr>
 			<tr><td>HCPWF_NURSESPER1000_PCT</td><td></td></tr>
 			<tr><td>HCPWF_DENTSPER1000_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>19_DRUG_POISONING</b>
 
 </td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>DRUG_MORTALITY_2021_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>20_GEOGRAPHIC</b>
 
 </td></tr>
@@ -691,6 +731,8 @@
 			<tr><td>AWATER_SQMI_NUM</td><td></td></tr>
 			<tr><td>GEOLAT_NUM</td><td></td></tr>
 			<tr><td>GEOLONG_NUM</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>21_HOUSING</b>
 
 </td></tr>
@@ -736,6 +778,8 @@
 			<tr><td>HC_OCPROOM_1_5PLUS_PCT</td><td></td></tr>
 			<tr><td>HC_OCCU_VEH_123PLUS_NUM</td><td></td></tr>
 			<tr><td>HC_OCCU_VEH_123PLUS_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>22_COMMUTE</b>
 
 </td></tr>
@@ -777,6 +821,8 @@
 			<tr><td>G2W_CTW_TIME-LESS15MINS_PCT</td><td></td></tr>
 			<tr><td>G2W_CTW_TIME-15TO29MINS_PCT</td><td></td></tr>
 			<tr><td>G2W_CTW_TIME-30TO59MINS_PCT</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>23_NIELSENABCD</b>
 
 </td></tr>
@@ -788,6 +834,8 @@
 			<tr><td>DMA_NAME</td><td></td></tr>
 			<tr><td>CBSA_NAME</td><td></td></tr>
 			<tr><td>MARKETING_REGION_NAME</td><td></td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>24_MRI_GENERAL</b>
  <span class="source_description">(MRI General Attitudes - Double Base 2022 - 2024)</span>
 </td></tr>
@@ -857,6 +905,8 @@
 			<tr><td>MRI_GEN_PREFER_QUIET_PCT</td><td>I prefer spending a quiet evening at home instead of going out</td></tr>
 			<tr><td>MRI_GEN_DECOR_MATTERS_PCT</td><td>Home decor is of particular interest to me</td></tr>
 			<tr><td>MRI_GEN_PARENTS_PROVIDE_MORE_PCT</td><td>I think it is good for parents to provide children with more things than they had</td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>25_MRI_TV</b>
  <span class="source_description">(MRI TV Shows Watched - Double Base 2022 - 2024)</span>
 </td></tr>
@@ -890,11 +940,14 @@
 			<tr><td>MRI_TV_SETH</td><td>Late Night with Seth Meyers</td></tr>
 			<tr><td>MRI_TV_ASWIM_EUTHANASIA</td><td>Adult Swim: Teenage Euthanasia</td></tr>
 			<tr><td>MRI_TV_CVS_OVERNIGHT</td><td>CBS Overnight News</td></tr>
+		</table>
+		<table>
 			<tr><td colspan="2"><b>_CLUSTERSV46</b>
 
 </td></tr>
 			<tr><td>GEO_FIPS</td><td></td></tr>
 			<tr><td>cluster</td><td></td></tr>
 		</table>
+
 	</body>
 </html>
