@@ -2,7 +2,6 @@
 	<head>
 		<title>Rural Reframe Data Dictionary</title>
 		<link rel="stylesheet" href="/css/dictionary.css" />
-		<link rel="stylesheet" href="css/dictionary.css" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
@@ -10,7 +9,7 @@
 	</head>
 	<body>
 			<div class="source_header">00_GEOFIPS_BASE</div>
- <div class="source_description">(Geographic FIPS Codes (2020 Census Update))</div>
+ <div class="source_description">Geographic FIPS Codes (2020 Census Update)</div>
 <div class="source_long_description">American National Standards Institute (ANSI) codes are standardized numeric or alphabetic codes whose documentation is issued by ANSI to ensure uniform identification of geographic entities through all government agencies. The county subdivisions and places tables provide the 5-digit Federal Information Processing Series (FIPS) codes, formerly referred to as FIPS55, assigned and maintained by the Census Bureau. This is also accompanied by a TIGER Line ID, which is a unique identifier assigned by the Census Bureau to each legal/statistical area entity for the purpose of linking data from the decennial census and other geographic programs. https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip</div>
 		<table>
 			<tr><td>GEO_FIPS</td><td>State-County FIPS code</td></tr>
@@ -22,7 +21,7 @@
 			<tr><td>COUNTY_NSCODE</td><td>County NS code</td></tr>
 		</table>
 			<div class="source_header">01_RURAL_URBAN_CONTINUUM_CODES</div>
- <div class="source_description">(Rural-Urban Continuum Codes (2023))</div>
+ <div class="source_description">Rural-Urban Continuum Codes (2023)</div>
 <div class="source_long_description">The 2023 Rural-Urban Continuum Codes distinguish U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area. The division of counties as either metro or nonmetro, based on the 2023 Office of Management and Budget (OMB) delineation of metro areas, is further subdivided into three metro and six nonmetro categories. Each county and census-designated county-equivalent in the United States, including those in outlying territories, is assigned one of these nine codes.</div>
 		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
@@ -30,7 +29,7 @@
 			<tr><td>R_CODE</td><td>Inferred code for rural (R) or urban (U) based on R_CONTINUUM_CODE</td></tr>
 		</table>
 			<div class="source_header">02_POP_AGE_RACE_ETH</div>
- <div class="source_description">((CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. )</div>
+ <div class="source_description">(CC-EST2023-AGESEX-[ST-FIPS]) Annual County and Puerto Rico Municipio Resident Population, Estimates by Selected Age Groups and Sex: April 1, 2020 to July 1, 2023. </div>
 <div class="source_long_description">Populations can change in three ways: people may be born (births), they may die (deaths), or they may move (domestic and international migration). The U.S. Census Bureau’s Population Estimates Program measures this change and adds it to a base population to produce updated estimates every year. With each annual release of population estimates, the Population Estimates Program revises and updates the entire time series of estimates from April 1, 2020 to July 1 of the current year, which we refer to as the vintage year. We use the term “vintage” to denote an entire time series created with a consistent population starting point and methodology. The release of a new vintage of estimates supersedes any previous series and incorporates the most up-to-date input data and methodological improvements. The population estimates are used for federal funding allocations, as controls for major surveys including the Current Population Survey and the American Community Survey (ACS), for community development, to aid business planning, and as denominators for statistical rates, among many other uses. Metadata at https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2023/CC-EST2023-ALLDATA.pdf</div>
 		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
@@ -240,7 +239,7 @@
 			<tr><td>POP_NHTOM_65PLUSY_2020_NUM</td><td>Not Hispanic, Two or More Races population 65 years old and older (2020)</td></tr>
 		</table>
 			<div class="source_header">03_ECONOMIC_TYPOLOGY2015</div>
- <div class="source_description">(ERS County Typology Codes, 2015 Edition)</div>
+ <div class="source_description">ERS County Typology Codes, 2015 Edition</div>
 <div class="source_long_description">Labor and proprietors earnings and employment by place of work are the basis for the economic dependence categories. Each industrys earnings and employment were calculated separately as a percent of total labor and proprietors earnings or total employment in the county in 2010, 2011, and 2012. These percentages were summed, and divided by 3 to obtain annual average percentages. This averaging was done to minimize the effects of any one-year anomaly in an industrys earnings or employment. County-level estimates of earnings and employment by place of work used to measure economic dependence come from the Bureau of Economic Analysis (BEA) Regional Local Area Personal Income & Employment data. The BEA income and employment data used were released in November 2014. The BEA industry data use the North American Industry Classification System (NAICS). Publicly available data (with some industry suppression at the county level) were used for Florida, Massachusetts, Mississippi, New Hampshire, and Wyoming. For all other States, unsuppressed data, not publicly available, were used to develop the economic classifications. On May 31, 2017, the ERS 2015 County Typology Codes were revised for six counties to correct a coding error. More details of the methodology can be found at https://www.ers.usda.gov/data-products/county-typology-codes/documentation/</div>
 		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
@@ -249,7 +248,7 @@
 			<tr><td>ECON_TYPE_RETDEST_BIN</td><td>Economic Type Retirement Destination Binary</td></tr>
 		</table>
 			<div class="source_header">04_PERSINC_EMPLOYMENT</div>
- <div class="source_description">(Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis)</div>
+ <div class="source_description">Personal income and employment by major component (Interactive Tables - CAINC4) by U.S. Department of Commerce - Bureau of Economic Analysis</div>
 <div class="source_long_description">GDP by county is published at the sector level, however, many industries are estimated at the three-digit North American Industry Classification System (NAICS) level. To estimate the county residual portion of GDP for each industry, BEA first calculates the state-level residual value for each industry from BEA’s GDP by state statistics. County level industry source data are used as indicators to distribute the calculated state-level residual portion for each industry to produce county estimates. The resulting county statistics sum to published GDP by state by industry. More info here: https://www.bea.gov/system/files/2019-12/One_Page_Methodology_v6.pdf</div>
 		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
@@ -836,7 +835,7 @@
 			<tr><td>MARKETING_REGION_NAME</td><td></td></tr>
 		</table>
 			<div class="source_header">24_MRI_GENERAL</div>
- <div class="source_description">(MRI General Attitudes - Double Base 2022 - 2024)</div>
+ <div class="source_description">MRI General Attitudes - Double Base 2021 - 2023</div>
 
 		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
@@ -907,7 +906,7 @@
 			<tr><td>MRI_GEN_PARENTS_PROVIDE_MORE_PCT</td><td>I think it is good for parents to provide children with more things than they had</td></tr>
 		</table>
 			<div class="source_header">25_MRI_TV</div>
- <div class="source_description">(MRI TV Shows Watched - Double Base 2022 - 2024)</div>
+ <div class="source_description">MRI TV Shows Watched - Double Base 2021 - 2023</div>
 
 		<table>
 			<tr><td>GEO_FIPS</td><td></td></tr>
